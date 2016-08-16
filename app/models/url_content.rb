@@ -1,3 +1,3 @@
 class UrlContent < ActiveRecord::Base
-  validates :name, :header_one, presence: :true
+  validates :name, :headers_one, presence: :true
 end
