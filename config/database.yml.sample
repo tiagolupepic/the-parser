@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: the_parser_development
+  username: root
+  password:
+  host: 127.0.0.1
+  port: 5432
+
+test:
+  adapter: postgresql
+  database: the_parser_test
+  username: root
+  password:
+  host: 127.0.0.1
+  port: 5432
