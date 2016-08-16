@@ -4,6 +4,8 @@ ruby '2.3.0'
 gem 'roda'
 gem 'puma'
 gem 'rake'
+gem 'activerecord'
+gem 'pg'
 
 group :development do
   gem 'rack-test'
