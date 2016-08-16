@@ -19,6 +19,8 @@ ActionMailer::Base.delivery_method = :test
 RSpec.configure do |config|
   config.include Rack::Test::Methods
   config.include FactoryGirl::Syntax::Methods
+  config.include Shoulda::Matchers::ActiveModel,  type: :model
+  config.include Shoulda::Matchers::ActiveRecord, type: :model
 
   config.color = true
   config.tty   = true
