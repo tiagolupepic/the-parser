@@ -6,6 +6,7 @@ Bundler.require
 AppEnv = ENV['RACK_ENV'] || 'development'
 
 [
+  'config/initializers/',
   'app/helpers/',
   'app/api',
   'app'
