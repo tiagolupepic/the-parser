@@ -6,6 +6,7 @@ gem 'puma'
 gem 'rake'
 gem 'activerecord'
 gem 'pg'
+gem 'nokogiri'
 
 group :development do
   gem 'rack-test'
