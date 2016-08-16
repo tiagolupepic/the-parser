@@ -1,6 +1,7 @@
 ENV["RACK_ENV"] = 'test'
 
 require File.expand_path("../../config/boot", __FILE__)
+require 'shoulda/matchers'
 require 'rack/test'
 require 'factory_girl'
 require 'database_cleaner'
@@ -13,8 +14,6 @@ FactoryGirl.definition_file_paths = ['spec/factories']
 FactoryGirl.find_definitions
 
 Dir[File.join(__dir__, "support/**/*.rb")].each { |f| require f }
-
-ActionMailer::Base.delivery_method = :test
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
