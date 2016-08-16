@@ -8,6 +8,7 @@ AppEnv = ENV['RACK_ENV'] || 'development'
 [
   'config/initializers/',
   'app/helpers/',
+  'app/services/',
   'app/models/',
   'app/api',
   'app'
