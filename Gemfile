@@ -18,4 +18,5 @@ group :development do
   gem 'pry'
   gem 'vcr'
   gem 'shoulda-matchers'
+  gem 'webmock'
 end
