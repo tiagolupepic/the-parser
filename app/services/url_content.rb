@@ -29,15 +29,20 @@ class UrlContentService
   def params
     {
       name:          document.base_uri.to_s,
-      headers_one:   page.css('h1').map(&:text),
-      headers_two:   page.css('h2').map(&:text),
-      headers_three: page.css('h3').map(&:text),
+      headers_one:   cleanup_empty(page.css('h1').map(&:text)),
+      headers_two:   cleanup_empty(page.css('h2').map(&:text)),
+      headers_three: cleanup_empty(page.css('h3').map(&:text)),
       links:         page_links
     }
   end
 
   def page_links
-    page.css('a').collect { |link| link.attributes['href'].value }
+    page.css('a').collect   { |link| link.attributes['href'].try(:value) }
+                 .delete_if { |value| value.blank? }
+  end
+
+  def cleanup_empty(content)
+    content.map(&:squish)
   end
 
   def valid_url?
