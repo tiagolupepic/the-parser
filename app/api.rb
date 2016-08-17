@@ -5,5 +5,9 @@ class TheParser < Roda
     r.root do
       { name: 'The Parser Api' }
     end
+
+    r.on 'urls' do
+      r.run Urls
+    end
   end
 end
