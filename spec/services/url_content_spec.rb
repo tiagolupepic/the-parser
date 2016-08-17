@@ -18,7 +18,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with valid url' do
+    context 'with valid url', vcr: true do
       let(:url) { 'http://guides.rubyonrails.org/routing.html' }
 
       it 'should create UrlContent' do
@@ -86,7 +86,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with url shortener' do
+    context 'with url shortener', vcr: true do
       let(:url) { 'http://bit.ly/1ww7mOQ' }
 
       it 'should create UrlContent' do
@@ -116,7 +116,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with url from google (redirect)' do
+    context 'with url from google (redirect)', vcr: true do
       let(:url) { 'http://www.indeed.com/rc/clk?jk=9b8104db56fc49ce&fccid=b8ada337c2ed4289' }
 
       it 'should create UrlContent' do
@@ -146,7 +146,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with url without h1' do
+    context 'with url without h1', vcr: true do
       let(:url) { 'https://www.google.com' }
 
       it 'should raise error' do
@@ -154,7 +154,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with url and h1 only' do
+    context 'with url and h1 only', vcr: true do
       let(:url) { 'https://regex101.com' }
 
       it 'should create UrlContent' do

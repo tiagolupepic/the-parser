@@ -1,0 +1,316 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://regex101.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 17 Aug 2016 20:45:36 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.4.45-0+deb7u2
+      Set-Cookie:
+      - REGEX101=htbmp5efmshi6spuchunbvjgs7; path=/
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Mod-Pagespeed:
+      - 1.11.33.2-0
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '5773'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"
+        lang=\"en\">\r\n<head>\r\n\t<title>Online regex tester and debugger: JavaScript,
+        Python, PHP, and PCRE</title>\r\n\t<link href=\"//fonts.googleapis.com/css?family=Open+Sans:400,700,300&amp;subset=latin\"
+        rel=\"stylesheet\" type=\"text/css\">\r\n\t<link href=\"/css/A.main.1436803526.css.pagespeed.cf.PhCm8Wqmr_.css\"
+        rel=\"stylesheet\" type=\"text/css\">\r\n\t<link type=\"text/plain\" rel=\"author\"
+        href=\"//regex101.com/humans.txt\">\r\n\t<link rel=\"icon\" href=\"/favicon.ico\"
+        type=\"image/x-icon\">\r\n\t<link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\"
+        rel=\"stylesheet\">\r\n\t<meta charset=\"utf-8\">\r\n\t<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, maximum-scale=1\">\r\n\t<meta
+        name=\"keywords\" content=\"javascript,regex,regular expression,debugger,explainer,helper,tester,match,pcre,python,editor\">\r\n\t<meta
+        name=\"description\" content=\"Online regex tester, debugger with highlighting
+        for PHP, PCRE, Python and JavaScript.\">\r\n\t<meta name=\"author\" content=\"Firas
+        Dib\">\r\n\t<meta property=\"twitter:card\" content=\"summary\">\r\n\t<meta
+        property=\"twitter:site\" content=\"@regex101\">\r\n\t<meta property=\"twitter:title\"
+        content=\"Regex101 - online regex editor and debugger\">\r\n\t<meta property=\"twitter:description\"
+        content=\"Regex101 allows you to create, debug, test and have your expressions
+        explained for PHP, PCRE, JavaScript and Python. The website also features
+        a community where you can share useful expressions.\">\r\n\t<meta property=\"twitter:creator\"
+        content=\"@regex101\">\r\n\t<meta property=\"twitter:image\" content=\"//regex101.com/gfx/preview.png\">\r\n\t<meta
+        property=\"twitter:domain\" content=\"regex101.com\">\r\n</head>\r\n<body
+        class=\"box_overflow_fix light default\" spellcheck=\"false\">\r\n\t<div id=\"header_parent\">\r\n\t\t<div
+        id=\"header\">\r\n\t\t\t<div id=\"header_menu\">\r\n\t\t\t\t<a target=\"_blank\"
+        href=\"https://twitter.com/regex101\"><i class=\"fa fa-twitter-square \"></i><span
+        class=\"large_menu\">RegEx101</span></a>\r\n\t\t\t\t<a target=\"_blank\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=firas%2edib%40gmail%2ecom&amp;lc=US&amp;item_name=Regex101&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest\"><i
+        class=\"fa fa-dollar\"></i><span class=\"large_menu\">Donate</span></a>\r\n\t\t\t\t<a
+        target=\"_blank\" href=\"mailto:contact@regex101.com\"><i class=\"fa fa-send\"></i><span
+        class=\"large_menu\">Contact</span></a> \r\n\t\t\t\t<a target=\"_blank\" href=\"https://github.com/firasdib/Regex101/issues\"><i
+        class=\"fa fa-exclamation-triangle\"></i><span class=\"large_menu\">Bug reports
+        &amp; Suggestions</span></a>\r\n\t\t\t\t<div id=\"settings_popup\">\r\n\t\t\t\t\t<span
+        class=\"fa-stack fa-lg\" id=\"settings\" title=\"Adjust settings and theme\">\r\n\t\t\t\t\t
+        \t<i class=\"fa fa-circle fa-stack-2x\"></i>\r\n\t\t\t\t\t\t<i class=\"fa
+        fa-wrench fa-stack-1x\"></i>\r\n\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t<span
+        class=\"fa-stack fa-lg\" id=\"sign_in_out\" title=\"Sign in\">\r\n\t\t\t\t\t\t<i
+        class=\"fa fa-circle fa-stack-2x\"></i>\r\n\t\t\t\t\t\t<i class=\"fa fa-sign-in
+        fa-stack-1x\"></i>\r\n\t\t\t\t\t</span>\r\n\t\t\t\t</div>\r\n\t\t\t\r\n\t\t\t</div>\r\n\t\t\t<div
+        class=\"text_overflow\">\r\n\t\t\t\t<h1 id=\"logo\">\r\n\t\t\t\t\t<a href=\"/\">\r\n\t\t\t\t\t\t<div
+        id=\"large_header\"><span class=\"part1\">regular</span> <span class=\"part2\">expressions</span>
+        <span class=\"part3\">101</span></div>\r\n\t\t\t\t\t\t<div id=\"small_header\"><span
+        class=\"part1\">reg</span><span class=\"part2\">ex</span> <span class=\"part3\">101</span></div>\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</h1>\r\n\t\t\t\t<ul
+        id=\"header_nav\">\r\n\t\t\t\t\t<li class=\"fullscreen header_nav active main_menu
+        main\" data-id=\"40\">\r\n\t\t\t\t\t\t<i class=\"fa fa-terminal\"></i><span
+        class=\"large_menu\">Regex Tester</span>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li
+        class=\"fullscreen header_nav main_menu community\" data-id=\"43\">\r\n\t\t\t\t\t\t<i
+        class=\"fa fa-cloud\"></i><span class=\"large_menu\">Regex Library</span>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li
+        class=\"fullscreen header_nav main_menu\" data-id=\"42\">\r\n\t\t\t\t\t\t<a
+        target=\"_blank\" href=\"http://webchat.freenode.net/?nick=regex101-....&amp;channels=regex\"
+        id=\"irc\">\r\n\t\t\t\t\t\t\t<i class=\"fa fa-comments\"></i><span class=\"large_menu\">IRC</span>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\t<div
+        id=\"settings_popup_contents\">\r\n\t\t<div class=\"left\">\r\n\t\t\t<div
+        class=\"label\"><i class=\"fa fa-gear settings\"></i> General Settings</div>\r\n\t\t\t<input
+        type=\"checkbox\" id=\"display_whitespace\" name=\"display_whitespace\" tabindex=\"999\"
+        value=\"1\" data-id=\"1\">\r\n\t\t\t<label class=\"design_label\" for=\"display_whitespace\">\r\n\t\t\t\t<span></span>Display
+        Whitespace\r\n\t\t\t</label>\r\n\t\t\t<input type=\"checkbox\" id=\"small_menu\"
+        name=\"small_menu\" tabindex=\"999\" value=\"1\" data-id=\"201\">\r\n\t\t\t<label
+        class=\"design_label\" for=\"small_menu\">\r\n\t\t\t\t<span></span>Use minimal
+        view\r\n\t\t\t</label>\r\n\t\t\t<div class=\"label\"><i class=\"fa fa-picture-o
+        theme\"></i> Theme</div>\r\n\t\t\t<input type=\"radio\" id=\"light_theme\"
+        name=\"theme\" tabindex=\"999\" value=\"1\" data-id=\"203\" checked=\"checked\">\r\n\t\t\t<label
+        class=\"design_label\" for=\"light_theme\">\r\n\t\t\t\t<span></span>Use light
+        theme\r\n\t\t\t</label>\r\n\t\t\t<input type=\"radio\" id=\"dark_theme\" name=\"theme\"
+        tabindex=\"999\" value=\"1\" data-id=\"200\">\r\n\t\t\t<label class=\"design_label\"
+        for=\"dark_theme\">\r\n\t\t\t\t<span></span>Use dark theme\r\n\t\t\t</label>\r\n\t\t</div>\r\n\t\t<div
+        class=\"right\">\r\n\t\t\t<div id=\"colorizer_themes\">\r\n\t\t\t\t<div class=\"label\"><i
+        class=\"fa fa-terminal regex\"></i> Regex Settings</div>\r\n\t\t\t\t<input
+        type=\"checkbox\" id=\"colorize_regex\" name=\"colorize_regex\" tabindex=\"999\"
+        value=\"1\" data-id=\"9\">\r\n\t\t\t\t<label class=\"design_label\" for=\"colorize_regex\">\r\n\t\t\t\t\t<span></span>Colorize
+        syntax\r\n\t\t\t\t</label>\r\n\t\t\t\t<div class=\"select_themes\">\r\n\t\t\t\t\t<strong>Theme:</strong>\r\n\t\t\t\t\t<select
+        class=\"light_themes\" data-id=\"999\">\r\n\t\t\t\t\t\t<option value=\"default\">Default</option>\r\n\t\t\t\t\t\t<option
+        value=\"default_light\">Default - Light</option>\r\n\t\t\t\t\t</select><select
+        class=\"dark_themes\" data-id=\"999\">\r\n\t\t\t\t\t\t<option value=\"default\">Default</option>\r\n\t\t\t\t\t</select>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<input
+        type=\"checkbox\" id=\"smart_completion\" name=\"smart_completion\" tabindex=\"999\"
+        value=\"1\" data-id=\"210\">\r\n\t\t\t\t<label class=\"design_label\" for=\"smart_completion\">\r\n\t\t\t\t\t<span></span>Enable
+        smart auto-completion\r\n\t\t\t\t</label>\r\n\t\t\t\t<input type=\"checkbox\"
+        id=\"wrap_newlines\" name=\"wrap_newlines\" tabindex=\"999\" value=\"1\" data-id=\"10\">\r\n\t\t\t\t<label
+        class=\"design_label\" for=\"wrap_newlines\">\r\n\t\t\t\t\t<span></span>Wrap
+        long lines\r\n\t\t\t\t</label>\r\n\t\t\t\t<input type=\"checkbox\" id=\"highlight_interaction\"
+        name=\"highlight_interaction\" tabindex=\"999\" value=\"0\" data-id=\"220\">\r\n\t\t\t\t<label
+        class=\"design_label\" for=\"highlight_interaction\">\r\n\t\t\t\t\t<span></span>Highlight
+        groups\r\n\t\t\t\t</label>\r\n\t\t\t\t<input type=\"checkbox\" id=\"display_nonpart\"
+        name=\"display_nonpart\" tabindex=\"999\" value=\"0\" data-id=\"221\">\r\n\t\t\t\t<label
+        class=\"design_label\" for=\"display_nonpart\">\r\n\t\t\t\t\t<span></span>Show
+        non-participating groups\r\n\t\t\t\t</label>\r\n\t\t\t\t<div class=\"execution_limit\">\r\n\t\t\t\t\t<label
+        class=\"design_label\" for=\"execution_limit\">Max execution time:</label>\r\n\t\t\t\t\t<input
+        type=\"text\" name=\"execution_limit\" id=\"execution_limit\" placeholder=\"2000\"><em>ms</em>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<!--li
+        id=\"dark_theme\" data-id=\"200\" class=\"menu_item\">\r\n\t\t\t\t<i class=\"fa
+        fa-picture-o\"></i><span class=\"large_menu\">Use dark theme</span>\r\n\t\t\t</li-->\r\n\t\t</div>\r\n\t\t<div
+        class=\"arrow-box-tip reverse\"></div>\r\n\t</div>\r\n\t<div class=\"denial_of_service\"
+        id=\"splash\">\r\n\t\t<div>\r\n\t\t\tInitializing editor, please stand by...
+        <i class=\"fa fa-cog fa-spin\"></i>\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"denial_of_service\"
+        id=\"loading_screen\">\r\n\t\t<div>\r\n\t\t\tLoading content, please hold...
+        <i class=\"fa fa-cog fa-spin\"></i>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<noscript>\r\n\t\t<div
+        class=\"denial_of_service\">\r\n\t\t\t<div>\r\n\t\t\t\tIt seems like you have
+        JavaScript disabled, rendering this website virtually useless.\r\n\t\t\t\tPlease
+        enable JavaScript to use this service. If you don't know how, try <a href=\"http://enable-javascript.com/\">this</a>.\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</noscript>\r\n\t<div
+        class=\"denial_of_service\" id=\"old_browser\">\r\n\t\t<div>You seem to be
+        using an outdated version of your browser which is no longer supported by
+        <strong>regex101.com</strong>. It is highly recommended that you upgrade your
+        browser. Sorry for the inconvenience.</div>\r\n\t</div>\r\n<div id=\"inline_menu\"
+        class=\"box_overflow_fix general_menu\">\r\n\t<ul class=\"first-ul overflow_handler\">\r\n\t\t<li
+        class=\"regex_menu extension_menu share_menu\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li
+        class=\"menu_notice\">Save &amp; Share</li>\r\n\t\t\t\t<li id=\"permalink_menu\"
+        class=\"menu_item disabled\" data-id=\"3\" data-permalink=\"\" data-version=\"\">\r\n\t\t\t\t\t<i
+        class=\"fa fa-save\"></i><span class=\"large_menu\">Save Regex (CTRL+S)</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        id=\"permalink_fork\" class=\"menu_item\" data-id=\"900\" style=\"display:
+        none;\">\r\n\t\t\t\t\t<i class=\"fa fa-code-fork\"></i><span class=\"large_menu\">Fork
+        Regex</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"menu_item unique disabled\"
+        data-id=\"4\" id=\"community_submit\">\r\n\t\t\t\t\t<i class=\"fa fa-cloud-upload\"></i><span
+        class=\"large_menu\">Add to Regex Library</span>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t\t<li
+        class=\"regex_menu extension_menu no_top_space\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li
+        class=\"menu_notice\">Flavor</li>\r\n\t\t\t\t<li class=\"flavor_pcre menu_item
+        active\" data-id=\"20\">\r\n\t\t\t\t\t<span class=\"mini_menu\">PCRE</span>\r\n\t\t\t\t\t<span
+        class=\"large_menu\"><i class=\"fa fa-file\"></i>PCRE (PHP)</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        class=\"flavor_js menu_item \" data-id=\"21\">\r\n\t\t\t\t\t<span class=\"mini_menu\">JS</span>\r\n\t\t\t\t\t<span
+        class=\"large_menu\"><i class=\"fa fa-file\"></i>JavaScript</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        class=\"flavor_python menu_item \" data-id=\"22\">\r\n\t\t\t\t\t<span class=\"mini_menu\">PY</span>\r\n\t\t\t\t\t<span
+        class=\"large_menu\"><i class=\"fa fa-file\"></i>Python</span>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t\t<li
+        class=\"regex_menu extension_menu\" id=\"tools_menu\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li
+        class=\"menu_notice\">Tools</li>\r\n\t\t\t\t<li class=\"menu_item\" data-id=\"50\"
+        id=\"format_regex\">\r\n\t\t\t\t\t<i class=\"fa fa-indent\"></i><span class=\"large_menu\">Format
+        Regex (requires free-spacing, /x)</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"menu_item
+        unique fullscreen disabled menu_toggle\" data-id=\"8\" id=\"sample_menu\">\r\n\t\t\t\t\t<i
+        class=\"fa fa-code\"></i><span class=\"large_menu\">Code Generator</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        class=\"menu_item unique disabled fullscreen menu_toggle\" data-id=\"7\" id=\"debugger_menu\">\r\n\t\t\t\t\t<i
+        class=\"fa fa-bug\"></i><span class=\"large_menu\">Regex Debugger</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        class=\"menu_item menu_toggle\" data-id=\"99\" id=\"unit_tests\">\r\n\t\t\t\t\t<i
+        class=\"fa fa-check\"></i><span class=\"large_menu\"><span class=\"unit_test_player\"><i
+        class=\"fa fa-play run_tests\" title=\"Run tests (CTRL+K)\"></i><span class=\"unit_result\">n/a</span><span
+        class=\"unit_progress\"></span></span><span class=\"text_overflow\">Unit tests</span></span>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t\t<li
+        id=\"filter_menu\" class=\"extension_menu community_menu no_top_space\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li
+        class=\"menu_notice\">Filter flavors</li>\r\n\t\t\t\t<li class=\"flavor_pcre
+        menu_item active\" data-id=\"100\" data-flavor-id=\"1\">\r\n\t\t\t\t\t<span
+        class=\"mini_menu\">PCRE</span>\r\n\t\t\t\t\t<span class=\"large_menu\"><i
+        class=\"fa fa-file\"></i>PCRE (PHP)</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li
+        class=\"flavor_js menu_item active\" data-id=\"101\" data-flavor-id=\"2\">\r\n\t\t\t\t\t<span
+        class=\"mini_menu\">JS</span>\r\n\t\t\t\t\t<span class=\"large_menu\"><i class=\"fa
+        fa-file\"></i>JavaScript</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"flavor_python
+        menu_item active\" data-id=\"102\" data-flavor-id=\"3\">\r\n\t\t\t\t\t<span
+        class=\"mini_menu\">PY</span>\r\n\t\t\t\t\t<span class=\"large_menu\"><i class=\"fa
+        fa-file\"></i>Python</span>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t\t<li
+        class=\"account_submenu extension_menu\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li class=\"menu_notice\">Filter
+        type</li>\r\n\t\t\t\t<li class=\"menu_item active\" data-id=\"300\" id=\"only_fav\"><i
+        class=\"fa fa-star\"></i><span class=\"large_menu\">View favorites</span></li>\r\n\t\t\t\t<li
+        class=\"menu_item active\" data-id=\"301\" id=\"only_contrib\"><i class=\"fa
+        fa-bookmark-o\"></i><span class=\"large_menu\">View contributions</span></li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t\t<li
+        class=\"donate_submenu extension_menu\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li class=\"menu_item\"><a
+        target=\"_blank\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=firas%2edib%40gmail%2ecom&amp;lc=US&amp;item_name=Regex101&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest\"><i
+        class=\"fa-dollar fa\"></i><span class=\"large_menu\" data-txt=\"Thank you!\">Consider
+        a donation</span></a></li>\r\n\t\t\t</ul>\r\n\t\t</li>\r\n\t</ul>\r\n</div>\r\n<div
+        id=\"content\">\r\n\t<div id=\"community\" class=\"box_overflow_fix extension_window\"></div>\r\n\t<div
+        id=\"account\" class=\"box_overflow_fix extension_window\"></div>\r\n\t\r\n\t<div
+        id=\"regex_editor\" class=\"box_overflow_fix\">\r\n\t\t<div id=\"code_samples\"
+        class=\"extension_window box_overflow_fix overflow_handler\"></div>\r\n\r\n\r\n\t\t<div
+        id=\"regex_debugger\" class=\"box_overflow_fix extension_window\">\r\n\t\t\t<div
+        id=\"regex_debugger_bg\" class=\"box_overflow_fix\">\r\n\t\t\t\t<div class=\"label\"
+        id=\"debugger_label\">Status: Fetching debug info...</div>\r\n\r\n\t\t\t\t<div
+        id=\"label_container\" class=\"monospace\">\r\n\t\t\t\t\t<input type=\"checkbox\"
+        id=\"show_regex_pos\" name=\"show_regex_pos\" tabindex=\"999\" value=\"1\"
+        checked=\"checked\"/>\r\n\t\t\t\t\t<label class=\"design_label\" for=\"show_regex_pos\">\r\n\t\t\t\t\t\t<span></span>Display
+        position in pattern\r\n\t\t\t\t\t</label>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<input
+        type=\"checkbox\" id=\"internal_opt\" name=\"internal_opt\" tabindex=\"999\"
+        value=\"1\"/>\r\n\t\t\t\t\t<label class=\"design_label\" for=\"internal_opt\">\r\n\t\t\t\t\t\t<span></span>Disable
+        internal engine optimizations\r\n\t\t\t\t\t</label>\r\n\r\n\t\t\t\t\t<a href=\"#\"
+        id=\"debugger_collapse\">collapse all</a>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\t\t\t<div
+        id=\"regex_debugger_window\" class=\"overflow_handler\">\r\n\t\t\t\t<div class=\"debugger_loader_padding\"></div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\r\n\t\t<div
+        id=\"main_editor\" class=\"flex-container box_overflow_fix\">\r\n\t\t\t<div
+        id=\"regex_container\" class=\"flex-regex box_overflow_fix\">\r\n\t\t\t\t<label
+        for=\"regex\">\r\n\t\t\t\t\tRegular Expression\r\n\t\t\t\t\t<div id=\"version_container\"
+        style=\"display: none;\">\r\n\t\t\t\t\t\t&mdash;\r\n\t\t\t\t\t\t<select id=\"version_selector\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t<span
+        id=\"result_indicator\" class=\"no_match\">no match</span>\r\n\t\t\t\t</label>\r\n\r\n\t\t\t\t<div
+        id=\"regex_input\" class=\"box_overflow_fix richtext_parent\">\r\n\t\t\t\t\t<div
+        id=\"delimiter_selector\" class=\"richtext_left slash_menu slash box_overflow_fix\"
+        data-dropdown=\".delimiter-dropdown\">/</div>\r\n\t\t\t\t\t<div class=\"richtext_right\">\r\n\t\t\t\t\t\t<div
+        class=\"slash slash_menu\" data-dropdown=\".delimiter-dropdown\">/</div><!--\r\n\t\t\t\t\t\t--><div
+        id=\"options_container\">\r\n\t\t\t\t\t\t\t<input data-focus=\"#options_container\"
+        value=\"\" id=\"options\" name=\"options\" size=\"20\" tabindex=\"2\" type=\"text\"
+        placeholder=\"gmixXsuUAJ\"/>\r\n\t\t\t\t\t\t\t<i id=\"options_helper\" class=\"fa
+        fa-question-circle\"></i>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div id=\"options_helper_contents\"></div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div
+        class=\"richtext_padding\">\r\n\t\t\t\t\t\t<div class=\"richtext_container\"
+        id=\"richtext_regex_container\">\r\n\t\t\t\t\t\t\t<div class=\"richtext\"
+        id=\"richtext_regex\">\r\n\t\t\t\t\t\t\t\t<pre><span class=\"colorizer_height\"></span><br/></pre>\r\n\t\t\t\t\t\t\t\t<pre
+        id=\"regex_colors\"><span></span><br/></pre>\r\n\t\t\t\t\t\t\t\t<textarea
+        data-focus=\"#richtext_regex_container\" spellcheck=\"false\" id=\"regex\"
+        name=\"regex\" tabindex=\"1\" rows=\"1\" cols=\"50\" placeholder=\"insert
+        your regular expression here\" autofocus=\"autofocus\"></textarea>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\r\n\t\t\t<div
+        id=\"test_result_container\" class=\"box_overflow_fix flex-text \">\r\n\t\t\t\t<label
+        for=\"regex_string\">Test string</label>\r\n\t\t\t\t<div class=\"overflow_handler
+        flex-grow\">\r\n\t\t\t\t\t<div class=\"richtext\" id=\"richtext_test\">\r\n\t\t\t\t\t\t<pre><span
+        id=\"richtext_test_size\"></span><br>&nbsp;</pre>\r\n\t\t\t\t\t\t<pre id=\"richtext_test_colors\"><span
+        id=\"test_color_element\"></span><br></pre>\r\n\t\t\t\t\t\t<textarea wrap=\"off\"
+        data-focus=\"#test_result_container .overflow_handler\" spellcheck=\"false\"
+        id=\"regex_string\" class=\"box_overflow_fix\" name=\"test\" rows=\"10\" tabindex=\"3\"
+        placeholder=\"insert your test string here\"></textarea>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div
+        id=\"subst_parent\" class=\"box_overflow_fix flex-sub \">\r\n\t\t\t\t<label
+        for=\"sub\" class=\"expander collapsed\">\r\n\t\t\t\t\t<span class=\"fa fa-plus-circle\"></span>Substitution\r\n\t\t\t\t</label>\r\n\t\t\t\t<div
+        id=\"subst_container\" class=\"overflow_handler flex-grow\">\r\n\t\t\t\t\t<input
+        class=\"box_overflow_fix\" value=\"\" id=\"sub\" name=\"sub\" tabindex=\"3\"
+        type=\"text\" placeholder=\"substitution; \\num = backreference, \\n = newline,
+        \\t = tab\">\r\n\t\t\t\t\t<div id=\"subst_area\" class=\"overflow_handler
+        flex-grow\">\r\n\t\t\t\t\t\t<div contenteditable=\"true\" id=\"subst_result\"
+        class=\"monospace hard_break box_overflow_fix\"></div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div
+        id=\"unit_tests_builder\" class=\"box_overflow_fix flex-unit-builder\">\r\n\t\t\t\t<div
+        class=\"label\">Create test<div class=\"right\"><a href=\"#\" class=\"button\"
+        tabindex=\"23\">Add test</a></div></div>\r\n\t\t\t\t<div id=\"unit_test_creator\"
+        class=\"box_overflow_fix\">\r\n\t\t\t\t\t<div class=\"test_builder\">\r\n\t\t\t\t\t\t<div
+        class=\"the_test pt1\">\r\n\t\t\t\t\t\t\t<div class=\"left\">given the string</div>\r\n\t\t\t\t\t\t\t<div
+        class=\"right\"><textarea tabindex=\"19\" class=\"box_overflow_fix\" id=\"unit_data\"
+        placeholder=\"test string\"></textarea></div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div
+        class=\"the_test pt2\">\r\n\t\t\t\t\t\t\t<div class=\"left\"><span>assert
+        that</span><select id=\"unit_type\" tabindex=\"20\"></select><select tabindex=\"21\"
+        id=\"assert_type\"></select></div>\r\n\t\t\t\t\t\t\t<div class=\"right\"><textarea
+        tabindex=\"22\" class=\"box_overflow_fix\" id=\"assert_equals\" type=\"text\"
+        placeholder=\"string value\"></textarea></div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div
+        id=\"unit_tests_list\" class=\"box_overflow_fix flex-unit-list\">\r\n\t\t\t\t<div
+        class=\"label\">Test list<div class=\"right unit_test_player\"><i class=\"fa
+        fa-play run_tests\" title=\"Run tests (CTRL+K)\"></i><span class=\"unit_result\">n/a</span></div></div>\r\n\t\t\t\t<div
+        id=\"unit_test_window\" class=\"unit_test_window flex-grow overflow_handler\">\r\n\t\t\t\t\t<div
+        class=\"all_tests\">\r\n\t\t\t\t\t\t<div id=\"unit_test_container\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t\t\r\n\t\t</div>\r\n\r\n\r\n\t\t<div
+        id=\"regex_treeview\" class=\"box_overflow_fix\">\r\n\t\t\t<div id=\"treeview_resizer\"
+        title=\"Keep dragging\"><div></div></div>\r\n\t\t\t<div id=\"treeview_content\"
+        class=\"box_overflow_fix flex-container\">\r\n\t\t\t<div id=\"scroll_treeview\"
+        class=\"box_overflow_fix flex-elem\">\r\n\r\n\t\t\t\t<div id=\"explainer_label\"
+        class=\"label expander\">\r\n\t\t\t\t\t<span class=\"fa\"></span>Explanation\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"overflow_handler box_overflow_fix flex-grow\">\r\n\t\t\t\t\t<div id=\"treeview\"
+        style=\"height: 100%\">\r\n\t\t\t\t\t\tAn explanation of your regex will be
+        automatically generated as you type.\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\t\t\t<div
+        id=\"scroll_match\" class=\"box_overflow_fix flex-elem\">\r\n\r\n\t\t\t\t<div
+        id=\"match_label\" class=\"label expander\">\r\n\t\t\t\t\t<span class=\"fa\"></span>Match
+        information\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"overflow_handler box_overflow_fix
+        flex-grow\">\r\n\t\t\t\t\t<div id=\"match_info\">\r\n\t\t\t\t\t\tDetailed
+        match information will be displayed here automatically.\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\r\n\r\n\t\t\t<div
+        id=\"quickref\" class=\"box_overflow_fix flex-elem\">\r\n\t\t\t\t<div class=\"label
+        expander\">\r\n\t\t\t\t\t<span class=\"fa\"></span>Quick reference\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        id=\"quickref_data\" class=\"flex-grow\">\r\n\t\t\t\t\t<div id=\"first_menu\"
+        class=\"box_overflow_fix general_menu\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_notice\">\r\n\t\t\t\t\t\t\t\t<div class=\"filter_input filter_mini
+        box_overflow_fix\" id=\"quickref_filter_parent\">\r\n\t\t\t\t\t\t\t\t\t<i
+        class=\"fa fa-search\"></i>\r\n\t\t\t\t\t\t\t\t\t<div class=\"filter_div\">\r\n\t\t\t\t\t\t\t\t\t\t<input
+        data-focus=\"#quickref_filter_parent\" type=\"text\" id=\"quickref_filter\"
+        class=\"filter_parent box_overflow_fix\" name=\"quickref_filter\" value=\"\"
+        placeholder=\"filter\">\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<span
+        class=\"text_overflow\" style=\"margin-right: 5px;\">Full reference</span>\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" data-id=\"basic\"><i class=\"fa fa-star\"></i>Most used
+        tokens</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_item\" data-id=\"fullref\"><i
+        class=\"fa fa-database\"></i>All tokens</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_notice\">Categories</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" data-id=\"other\"><i class=\"fa fa-dot-circle-o\"></i>General
+        tokens</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_item\" data-id=\"anchors\"><i
+        class=\"fa fa-anchor\"></i>Anchors</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_item\"
+        data-id=\"meta\"><i class=\"fa fa-bolt\"></i>Meta sequences</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" data-id=\"quantifiers\"><i class=\"fa fa-asterisk\"></i>Quantifiers</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" data-id=\"groups\"><i class=\"fa fa-dot-circle-o\"></i>Group
+        constructs</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_item\" data-id=\"charclass\"><i
+        class=\"fa fa-th-large\"></i>Character classes</li>\r\n\t\t\t\t\t\t\t<li class=\"menu_item\"
+        data-id=\"modifiers\"><i class=\"fa fa-flag\"></i>Flags/Modifiers</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" data-id=\"subst\"><i class=\"fa fa-scissors\"></i>Substitution</li>\r\n\t\t\t\t\t\t\t<li
+        class=\"menu_item\" id=\"quickref_search\"><i class=\"fa fa-search\"></i>Search
+        result</li>\r\n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div id=\"second_menu\"
+        class=\"no_icon box_overflow_fix general_menu overflow_handler\">\r\n\t\t\t\t\t\t<ul
+        class=\"no_icon\"></ul>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\r\n\t</div>\r\n</div>\r\n\t\r\n\t\t<div
+        class=\"delimiter-dropdown dropdown dropdown-relative dropdown-tip dropdown-index\">\r\n\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\t\t\t\t<li><a href=\"#\">/</a></li>\r\n\t\t\t\t<li><a
+        href=\"#\">~</a></li>\r\n\t\t\t\t<li><a href=\"#\">@</a></li>\r\n\t\t\t\t<li><a
+        href=\"#\">;</a></li>\r\n\t\t\t\t<li><a href=\"#\">&#37;</a></li>\r\n\t\t\t\t<li><a
+        href=\"#\">`</a></li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n<div id=\"dimmer\"></div>\r\n<div
+        id=\"dimmer-popup\"></div>\r\n<div id=\"match-tooltip\" class=\"arrow-box
+        monospace\">\r\n\t<div id=\"tooltip-contents\"></div>\r\n\t<div id=\"match-tooltip-tip\"
+        class=\"arrow-box-tip\"></div>\r\n</div>\r\n\r\n<script src=\"/js/underscore-min.1436803505.js.pagespeed.jm.ItwX38EOq5.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/js/jquery.tools.1436803505.js.pagespeed.jm.DNWAfAhpC9.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/js/general.regex101.1436803508.js+colorParser.regex101.1436803520.js.pagespeed.jc.KIXmW6Lahv.js\"></script><script>eval(mod_pagespeed_CRbzq1jVsW);</script>\r\n<script>eval(mod_pagespeed_LD3wbsjGh7);</script>\r\n<script
+        src=\"/js/explainer.regex101.1436803512.js.pagespeed.jm.noh2fCvD58.js\" type=\"text/javascript\"></script>\r\n<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-33878479-1','regex101.com');ga('send','pageview');</script>\r\n<script
+        src=\"/js/common.regex101.1436803517.js+matcher.regex101.1436803513.js.pagespeed.jc.GiUY2OHBQ4.js\"></script><script>eval(mod_pagespeed_0R2l5qkFIe);</script>\r\n<script>eval(mod_pagespeed_$$8DO5TKyQ);</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 20:45:36 GMT
+recorded_with: VCR 3.0.3
