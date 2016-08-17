@@ -1,0 +1,1143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.indeed.com/rc/clk?fccid=b8ada337c2ed4289&jk=9b8104db56fc49ce
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Wed, 17 Aug 2016 20:59:08 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - BIGipServerjob_iad=!d/9t1Go5kWaxhg4RNhs+rOzpOInz80W9ALDIrY4KeAQfSMFIGCKqhnUbu+kznkIBZEKFm6ee+bz1srY=;
+        path=/
+      - CTK=1aqd4prob5tck8h3; Domain=.indeed.com; Expires=Mon, 22-Aug-2033 15:47:39
+        GMT; Path=/
+      - INDEED_CSRF_TOKEN=UobZ1ZIMflh3iI4Ogx8J2CcYd15V7y1h; Path=/
+      - JSESSIONID=EA251BAA9723736B4B907AF538D7A88C.jasxA_iad-job14; Path=/; HttpOnly
+      - ctkgen=1; Expires=Wed, 17-Aug-2016 21:02:08 GMT; Path=/
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - private
+      Location:
+      - http://my.jobs/2119543de34d4928a30422726ac73ab31554
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html;charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <HTML><HEAD><TITLE>302 Moved</TITLE></HEAD><BODY>
+        <H1>302 Moved</H1>
+        The document has moved
+        <A HREF="http://my.jobs/2119543de34d4928a30422726ac73ab31554">here</A>.
+        </BODY></HTML>
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 20:59:08 GMT
+- request:
+    method: get
+    uri: http://my.jobs/2119543de34d4928a30422726ac73ab31554
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Aug 2016 21:24:03 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - aguid=470ee3990e4c487daa03fd3ea3b60ac2; Domain=.my.jobs; expires=Thu, 17 Aug
+        2017 20:58:29 GMT; Path=/
+      Location:
+      - http://cbscorporation.jobs/2119543DE34D4928A30422726AC73AB3/job/?vs=1554&utm_source=Indeed-DE&utm_medium=Job%20Aggregator&utm_campaign=Indeed
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 20:59:08 GMT
+- request:
+    method: get
+    uri: http://cbscorporation.jobs/2119543DE34D4928A30422726AC73AB3/job/?utm_campaign=Indeed&utm_medium=Job%20Aggregator&utm_source=Indeed-DE&vs=1554
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Aug 2016 20:59:11 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Language,Cookie
+      P3p:
+      - CP="ALL DSP COR CURa IND PHY UNR"
+      Content-Language:
+      - en
+      Set-Cookie:
+      - sessionid=2679obv7uebz6bqj852ebl9f072bahew; expires=Wed, 31-Aug-2016 20:59:09
+        GMT; httponly; Max-Age=1209600; Path=/
+      Location:
+      - http://cbscorporation.jobs/new-york-ny/sports-anchor/2119543DE34D4928A30422726AC73AB3/job/?utm_campaign=Indeed&vs=1554&utm_medium=Job%20Aggregator&utm_source=Indeed-DE
+      X-Handled-By:
+      - 10.164.178.12:80
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 20:59:09 GMT
+- request:
+    method: get
+    uri: http://cbscorporation.jobs/new-york-ny/sports-anchor/2119543DE34D4928A30422726AC73AB3/job/?utm_campaign=Indeed&utm_medium=Job%20Aggregator&utm_source=Indeed-DE&vs=1554
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Aug 2016 20:59:11 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '17020'
+      Connection:
+      - keep-alive
+      Content-Language:
+      - en
+      Expires:
+      - Wed, 17 Aug 2016 22:59:05 GMT
+      Vary:
+      - Accept-Language,Cookie,Accept-Encoding
+      Link:
+      - <http://cbscorporation.jobs/new-york-ny/sports-anchor/2119543de34d4928a30422726ac73ab3/job/>;
+        rel="canonical"
+      Cache-Control:
+      - max-age=7200
+      P3p:
+      - CP="ALL DSP COR CURa IND PHY UNR"
+      Set-Cookie:
+      - sessionid=phyh2eh8azdlnif0x8ky0jfn54enxb11; expires=Wed, 31-Aug-2016 20:59:09
+        GMT; httponly; Max-Age=1209600; Path=/
+      Last-Modified:
+      - Wed, 17 Aug 2016 20:59:05 GMT
+      X-Handled-By:
+      - 10.113.144.132:80
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n\n\n\n\n\n\n\n\n\n\n<html
+        xmlns:fb=\"http://ogp.me/ns/fb#\" lang=\"en\">\n<head>\n    \n\n    <title>\nCBS
+        Corporation Jobs - Sports Anchor in New York, New York, United States\n</title>\n\n
+        \   <meta charset=\"utf-8\">\n    <meta name=\"msvalidate.01\" content=\"B9E4E5CC00BB58B097061E7DBFC6FA6B\"
+        />\n\n    \n\n    \n<link rel=\"stylesheet\" type=\"text/css\" href=\"/style/style.css?version=6536-1432\">\n<!--[if
+        lte IE 7]>\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/styleIE.css\">\n<![endif]-->\n<style
+        type=\"text/css\">\n/* Main CSS */\nbody {\n    background-color: #020a12
+        !important;\n    color: #666666;\n}\n\n\n</style>\n\n\n    \n    <script type=\"text/javascript\"
+        src=\"//d2e48ltfsb5exy.cloudfront.net/framework/v2/js/code/jquery-1.7.1.js\"></script>\n
+        \   <script type=\"text/javascript\" src=\"//d2e48ltfsb5exy.cloudfront.net/framework/v2/js/code/jquery-ui-1.8.17.custom.min.js\"></script>\n
+        \   <script type=\"text/javascript\" src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/def.ui.microsite.141-20.js\"></script>\n
+        \   <script type=\"text/javascript\" src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/underscore-1.3.1.min.js\"></script>\n
+        \   <script type=\"text/javascript\" src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/jquery.placeholder.js\"></script>\n
+        \   \n    \n    <style>\n\n    </style>\n\n    <meta http-equiv=\"Content-Type\"
+        content=\"text/html;charset=utf-8\">\n\n    <script type=\"text/javascript\"
+        src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/CACHE/js/61612ee6c8da.js\"></script>\n\n
+        \   \n\n    <script type=\"text/javascript\" src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/pager.164-21.js\"></script>\n\n
+        \   <!-- Google Analytics -->\n<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n//
+        variable to track if this is a standard or error (404/500) page\nvar error_page
+        = false;\n// pageview is handled in the wide footer to allow for page and
+        error page\n// differentation\n\nga('create', 'UA-16316580-1', 'auto');\nga('set',
+        'dimension1', '179-17');    \n\nga('set', 'dimension2', 'Default (10)');\n\n\n\nga('create',
+        'UA-57007812-27', 'auto', {'name': 'g1525'});\nga('g1525.set', 'dimension1',
+        '179-17', 2);    \n\nga('g1525.set', 'dimension2', 'Default (10)');\n  \n;\n\nfunction
+        goalClick(goalURL, the_url){\n        \n        ga('g1525.set', 'dimension1',
+        '179-17');    \n        \n        ga('g1525.set', 'dimension2', 'Default (10)');\n
+        \         \n        ga('g1525.send', 'pageview', goalURL)\n        \n\n        ga('set',
+        'dimension1', '179-17', 2);    \n\n        \n        ga('set', 'dimension2',
+        'Default (10)');\n        \n\n        ga('send', 'pageview', goalURL)\n    var
+        nw = window.open(the_url, '_blank')\n    nw.focus()\n}\n</script>\n<!-- End
+        Google Analytics -->\n\n\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n\n
+        \   \n        <meta name=\"title\" content=\"CBS Corporation Jobs - All Jobs
+        in New York, NY\">\n    \n\n\n    \n\n    \n        <meta name=\"robots\"
+        content=\"nofollow\">\n    \n\n\n    \n\n\n    \n\n    \n\n    \n\n    \n
+        \   \n\n    \n\n    \n\n     <link rel=\"shortcut icon\" href=\"http://seo.nlx.org/cbscorporation.jobs/img/favicon.ico\"
+        />\r\n<link rel=\"stylesheet\" href=\"http://seo.nlx.org/cbscorporation.jobs/flexslider/flexslider.css\"
+        type=\"text/css\" media=\"screen\" />\r\n<script defer src=\"http://seo.nlx.org/cbscorporation.jobs/flexslider/flexslider.min.js\"></script>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\r\n$(window).load(function(){\r\n\t$('.flexslider').flexslider({\r\n\t\tnamespace:
+        \"flex-\",             //{NEW} String: Prefix string attached to the class
+        of every element generated by the plugin\r\n\t\tselector: \".slides > li\",
+        \      //{NEW} Selector: Must match a simple pattern. '{container} > {slide}'
+        -- Ignore pattern at your own peril\r\n\t\tanimation: \"slide\",              //String:
+        Select your animation type, \"fade\" or \"slide\"\r\n\t\teasing: \"swing\",
+        \              //{NEW} String: Determines the easing method used in jQuery
+        transitions. jQuery easing plugin is supported!\r\n\t\tdirection: \"horizontal\",
+        \       //String: Select the sliding direction, \"horizontal\" or \"vertical\"\r\n\t\treverse:
+        false,                 //{NEW} Boolean: Reverse the animation direction\r\n\t\tanimationLoop:
+        false,             //Boolean: Should the animation loop? If false, directionNav
+        will received \"disable\" classes at either end\r\n\t\tsmoothHeight: false,
+        \           //{NEW} Boolean: Allow height of the slider to animate smoothly
+        in horizontal mode  \r\n\t\tstartAt: 0,                     //Integer: The
+        slide that the slider should start on. Array notation (0 = first slide)\r\n\t\tslideshow:
+        true,                //Boolean: Animate slider automatically\r\n\t\tslideshowSpeed:
+        4000,           //Integer: Set the speed of the slideshow cycling, in milliseconds\r\n\t\tanimationSpeed:
+        600,            //Integer: Set the speed of animations, in milliseconds\r\n\t\t
+        \r\n\t\t// Usability features\r\n\t\tpauseOnAction: true,            //Boolean:
+        Pause the slideshow when interacting with control elements, highly recommended.\r\n\t\tpauseOnHover:
+        false,            //Boolean: Pause the slideshow when hovering over slider,
+        then resume when no longer hovering\r\n\t\ttouch: true,                    //{NEW}
+        Boolean: Allow touch swipe navigation of the slider on touch-enabled devices\r\n\t\t
+        \r\n\t\t// Primary Controls\r\n\t\tcontrolNav: false,               //Boolean:
+        Create navigation for paging control of each clide? Note: Leave true for manualControls
+        usage\r\n\t\tdirectionNav: false,             //Boolean: Create navigation
+        for previous/next navigation? (true/false)\r\n\t\tprevText: \"\",           //String:
+        Set the text for the \"previous\" directionNav item\r\n\t\tnextText: \"\",
+        \              //String: Set the text for the \"next\" directionNav item\r\n\t});\r\n});\r\n</script>\r\n<style
+        type=\"text/css\">\r\n/*//////////////////// OVER WRITES /////////////////*/\r\ninput[title=\"Submit
+        Search\"] {\r\n\ttext-indent: 0;\r\n}\r\nb.ac-highlight {\r\n\tfont-weight:
+        bold;\r\n\tcolor: #333;\r\n\tbackground: transparent;\r\n}\r\n#direct_container
+        .standard .searchTab input {\r\n\twidth: 392px;\r\n}\r\n#direct_container
+        .searchTab input {\r\n\tpadding: 0 4px;\r\n}\r\n#direct_container .searchHeader
+        {\r\n\tpadding: 12px 14px 22px;\r\n}\r\n#direct_container .searchTab input
+        {\r\n\theight: 1.55em;\r\n\tborder: 1px solid #ccc;\r\n}\r\n#direct_container
+        .btn.primary {\r\n\tmargin-top: 25px;\r\n}\r\n#direct_container .searchFooter
+        {\r\n\tborder-top: none;\r\n\tpadding: 1px 0;\r\n}\r\n#direct_container .searchFooter
+        a, #direct_container .searchFooter > span {\r\n\tpadding: 0 6px;\r\n\tmargin-left:
+        8px;\r\n\tborder-radius: 3px;\r\n}\r\n#direct_jobListingTitle {\r\n\tpadding:
+        28px 0 0 18px;\r\n}\r\n#direct_jobListingTitle h3.direct_highlightedText,
+        h3 span.direct_highlightedText {\r\n\tborder-bottom: 1px solid #ccc;\r\n\twidth:
+        100.5%;\r\n\tmargin-left: -18px;\r\n\tpadding-left: 14px;\r\n}\r\n#direct_disambiguationDiv
+        h3 span.direct_highlightedText {\r\n\twidth: auto;\r\n\tmargin-left: 0;\r\n\tpadding-left:
+        0;\r\n}\r\n.direct_jobListingCompany { \r\n\tdisplay: none;\r\n}\r\n#direct_jobDescriptionText
+        {\r\n\tmargin: 0px 0 18px 28px;\r\n}\r\n.default_jobListing h4, \r\n.featured_jobListing
+        div, \r\n.default_jobListing div {\r\n\tmargin-left: 22px;\r\n}\r\n#direct_listingDiv
+        a .resultHeader {\r\n\tpadding: 3px 6px;\r\n\tborder-radius: 3px;\r\n\tdisplay:
+        inline-block;\r\n}\r\n.featured_jobListing div, .default_jobListing div {\r\n\tpadding-left:
+        6px;\r\n}\r\nh3.direct_highlightedText, h3 span.direct_highlightedText {\r\n\tborder-bottom:
+        1px solid #ccc;\r\n}\r\n#direct_blurbDiv h3 {\r\n\tpadding: 0 0 0;\r\n}\r\n#direct_searchOptions
+        li a, #direct_searchOptions li a:hover {\r\n\tbackground-position: 3px 4px;\r\n}\r\n#direct_controlBar
+        li.direct_highlightedText, #direct_searchOptions li a {\r\n\t-webkit-border-radius:
+        3px;\r\n\t-moz-border-radius: 3px;\r\n\tborder-radius: 3px;\r\n}\r\n.direct_dotjobsFilterContainer
+        .direct_highlightedText {\r\n\tpadding-left: 0;\r\n}\r\n#button_moreJobs:active
+        {\r\n\ttop:0px;\r\n}\r\n.direct_noJobs {\r\n\tbackground: #f2f2f2;\r\n\tmargin-left:
+        14px;\r\n\tpadding: 14px;\r\n\tborder: 1px solid #e0e0e0;\r\n}\r\n.direct_noJobs
+        br  {\r\n\tdisplay: none;\r\n}\r\n#no-results {\r\n\tfont-size: 1em;\r\n}\r\n#no-results-search-terms
+        {\r\n\tpadding: 14px;\r\n\ttext-align: left;\r\n\tfont-size: 1.2em;\r\n}\r\n.no-results-term
+        {\r\n\tcolor: #333;\r\n\tfont-size: 1.2em;\r\n\tfont-weight: normal;\r\n}\r\n@media
+        screen and (max-width: 800px) {\r\n\t.direct_noJobs {\r\n\t\tmargin-top: 14px;\r\n\t\tmargin-left:
+        0;\r\n\t}\r\n}\r\n/*//////////////////// OVER WRITES /////////////////*/\r\n\r\n\r\n\r\n\r\nbody
+        {\r\n\tbackground-color: #020a12 !important;\r\n}\r\n\r\n#direct_wideHeader
+        {\r\n\tbackground:url('http://seo.nlx.org/cbscorporation.jobs/img/header-bg.png')
+        repeat-x left top;\r\n\twidth: auto;\r\n\tmargin: 0 auto;\r\n\tpadding: 0;\r\n}\r\n#logoContainer
+        {\r\n\twidth: 972px;\r\n\tmargin: 0px auto;\r\n}\r\n#logo {\r\n\tfloat: left;\r\n}\r\n#logo
+        a {\r\n\tbackground:url('http://seo.nlx.org/cbscorporation.jobs/img/logo.png')
+        no-repeat left top;\r\n\twidth: 380px;\r\n\theight: 90px;\r\n\tdisplay: block;\r\n}\r\n#jumpSwitch
+        {\r\n\tfloat: right;\r\n\tpadding-top: 34px;\r\n}\r\n#jumpSwitch select {\r\n\twidth:
+        186px;\r\n\tcolor: #FFF;\r\n\tfont-size: 11px;\r\n\tborder: 1px solid #4072a6;\r\n\tbackground:
+        #305b88;\r\n\tpadding: 1px 1px 1px 5px;\r\n\r\n}\r\n#jumpSwitch option {\r\n\tpadding:
+        1px 0 1px 5px;\r\n}\r\n#nav {\r\n\twidth: 972px;\r\n\tmargin:0 auto;\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/navi-bg.jpg') no-repeat 0
+        0;\r\n\tposition: relative;\r\n\tz-index: 9999;\r\n}\r\n#nav:after {\r\n\tclear:
+        both;\r\n\tdisplay: block;\r\n\tcontent: \"\";\r\n}\r\n#nav li {\r\n\tfloat:
+        left;\r\n\tposition: relative;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/navi-divider.png')
+        no-repeat 0 50%;\r\n}\r\n#nav ul li a {\r\n\tdisplay: block;\r\n\tfloat: left;\r\n\twidth:
+        120px;\r\n\tcolor: #FFF;\r\n\tfont-size: 12px;\r\n\theight: 18px;\r\n\tpadding:
+        15px 0px 10px 0px;\r\n\ttext-transform: uppercase;\r\n\tfont-weight: bold;\r\n\ttext-decoration:
+        none;\r\n\ttext-align: center;\r\n\tline-height: 16px;\r\n}\r\n#nav ul li#navi-about_cbs
+        a {\r\n\twidth: 140px;\r\n}\r\n#nav ul li#navi-portfolio a {\r\n\twidth: 160px;\r\n}\r\n#nav
+        ul li#navi-investors a {\r\n\twidth: 140px;\r\n}\r\n#nav ul li#navi-diversity
+        a {\r\n\twidth: 140px;\r\n}\r\n#nav li:hover .drop-down {\r\n\tdisplay: block;\r\n}\r\n#nav
+        ul li#navi-about_cbs:hover a, #nav ul li#navi-investors:hover a, #nav ul li#navi-diversity:hover
+        a{\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-140.gif')
+        no-repeat 0 0;\r\n}\r\n#nav ul li#navi-careers:hover a {\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-120-drop.gif')
+        no-repeat 0 0;\r\n}\r\n#nav ul li#navi-portfolio:hover a{\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-160.gif') no-repeat
+        0 0;\r\n}\r\n#nav ul li#navi-news:hover a, #nav ul li#navi-contact:hover a
+        \ {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-120.gif')
+        no-repeat 0 0;\r\n}\r\n#nav li a:hover,\r\n#nav li.active a,\r\n#nav li:hover
+        a,\r\n#nav li.hover a {\r\n\tcolor: #29598b;\r\n\ttext-decoration: none;\r\n}\r\n#nav
+        ul li ul.drop-down {\r\n\tdisplay: none;\r\n\tposition: absolute;\r\n\twidth:
+        225px;\r\n\tz-index: 100;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tmargin-top: 43px;\r\n\tmargin-left:
+        5px;\r\n\tpadding-top: 5px;\r\n\tpadding-bottom: 6px;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-menu-bg2.gif')
+        no-repeat 0 100%;\r\n}\r\n#nav ul li#navi-portfolio ul.drop-down{\r\n\twidth:
+        410px;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/navi-hover-menu-bg-portfolio.gif')
+        no-repeat 0 100%;\r\n}\r\n#nav ul li#navi-portfolio:hover ul.drop-down a,
+        #nav ul li#navi-portfolio.hover ul.drop-down a {\r\n\twidth: 166px;\r\n}\r\n#nav
+        ul.drop-down li {\r\n\twidth: 212px;\r\n\tdisplay: inline-block;\r\n\tposition:
+        relative;\r\n\tbackground: none;\r\n\tleft: 6px;\r\n\tmargin-right: 6px;\r\n\tborder-top:
+        1px solid #d2d6db;\r\n}\r\n#nav #navi-portfolio ul.drop-down li {\r\n\twidth:
+        195px;\r\n}\r\n#nav ul li:hover ul.drop-down li a, \r\n#nav ul li.current:hover
+        ul.drop-down li a, \r\n#nav ul li#navi-about_cbs:hover ul.drop-down a, \r\n#nav
+        ul li#navi-portfolio:hover ul.drop-down a, \r\n#nav ul li#navi-investors:hover
+        ul.drop-down a, \r\n#nav ul li#navi-careers:hover ul.drop-down a, \r\n#nav
+        ul li#navi-diversity:hover ul.drop-down a {\r\n\tdisplay: block;\r\n\tfloat:
+        left;\r\n\twidth: 182px;\r\n\tcolor: #0066cc;\r\n\tfont-size: 12px;\r\n\theight:
+        18px;\r\n\tpadding: 5px 10px 5px 20px;\r\n\tbackground: none;\r\n\ttext-align:
+        left;\r\n\ttext-transform: none;\r\n\tfont-weight: normal;\r\n\ttext-decoration:
+        none;\r\n} \r\n#nav ul li#navi-portfolio:hover ul.drop-down a {\r\n\twidth:
+        165px;\r\n}\r\n#nav ul li:hover ul.drop-down li a:hover,\r\n#nav ul li.current:hover
+        ul.drop-down li a:hover,\r\n#nav ul li#navi-about_cbs:hover ul.drop-down a:hover,\r\n#nav
+        ul li#navi-portfolio:hover ul.drop-down a:hover,\r\n#nav ul li#navi-investors:hover
+        ul.drop-down a:hover,\r\n#nav ul li#navi-careers:hover ul.drop-down a:hover,\r\n#nav
+        ul li#navi-diversity:hover ul.drop-down a:hover {\r\n\tbackground:#cdcdcd;\r\n\tcolor:#29598b;\r\n}\r\n#direct_container
+        {\r\n\tbackground: #0f2842 url('http://seo.nlx.org/cbscorporation.jobs/img/container-bg.jpg')
+        no-repeat center bottom;\r\n\twidth: auto;\r\n\tpadding: 0;\r\n}\r\n#direct_innerContainer
+        {\r\n\tbackground: #fff;\r\n\twidth: 971px;\r\n\tmargin: 0 auto;\r\n\tpadding:
+        0;\r\n}\r\n#direct_wideFooter {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/footer-bg.png')
+        repeat-x center top;\r\n\twidth: auto;\r\n\tmargin: 0 auto;\r\n\tdisplay:
+        inline-block;\r\n\tdisplay: block;\r\n\theight: 250px\r\n}\r\n#direct_wideFooter:after
+        {\r\n\tvisibility: hidden;\r\n\tdisplay: block;\r\n\tfont-size: 0;\r\n\tcontent:
+        \" \";\r\n\tclear: both;\r\n\theight: 0;\r\n}\r\n* html #direct_wideFooter
+        { height: 1%; }\r\n\r\n#footerCont {\r\n\twidth: 930px;\r\n\tmargin: 0px auto;\r\n\theight:
+        50px;\r\n\tpadding: 30px 0;\r\n\tline-height: 1em;\r\n}\r\n#footerBar {\r\n\tfloat:
+        left;\r\n\twidth: 100%;\r\n}\r\n#footerBar p {\r\n\tfont-size: 11px;\r\n\tcolor:
+        #CCC;\r\n\tfloat: left;\r\n\twidth: 400px;\r\n\tpadding: 0;\r\n}\r\n#footerLinks
+        {\r\n\tlist-style-type: none;\r\n\tfloat: right;\r\n}\r\n#footerLinks li {\r\n\tfloat:
+        left;\r\n\tpadding: 0;\r\n\tborder-left: 1px solid #666;\r\n}\r\n#footerLinks
+        li a {\r\n\tcolor: #CCC;\r\n\tfont-size: 11px;\r\n\tdisplay: block;\r\n\tmargin:
+        0 10px;\r\n\ttext-decoration: none;\r\n}\r\n#footerLinks li a:hover {\r\n\ttext-decoration:
+        underline;\r\n}\r\n\r\n\r\n/* //////////////////////// begin VIEW ALL JOBS
+        //////////////////////// */\r\na#view-all-jobs:hover {\r\n\tbackground: #333;\r\n\tcolor:
+        #fff;\r\n}\r\n#cp-content #view-all-jobs {\r\n\tclear: both;\r\n\tfloat: left;\r\n\twidth:
+        100%;\r\n}\r\n#cp-content #view-all-jobs a {\r\n\tdisplay: block;\r\n\tmargin-top:
+        2px;\r\n\tpadding: 6px 0 6px 15px;\r\n}\r\n\r\n/* ////////////////////////
+        end VIEW ALL JOBS //////////////////////// */\r\n\r\n/* ////////////////////////
+        begin FLEXIBLE HOME PAGE BASE STYLES //////////////////////// */\r\n#cp-content
+        {\r\n\twidth: 100%;\r\n\tmargin: 0 auto;\r\n\tposition: relative;\r\n}\r\n\r\n.cp-row
+        {\r\n\tclear:both;\r\n\twidth:100%;\r\n\tmargin-top: 0%;\r\n\tfloat:left;\r\n}\r\n.cp-grid-full
+        {\r\n\tfloat: left;\r\n\twidth: 94%;\r\n\tmargin: 0 3%;\r\n}\r\n.cp-grid-third
+        {\r\nfloat: left;\r\nwidth: 24.75%;\r\nmargin: 2% 3% 0%;\r\n}\r\n.cp-grid-oneThird
+        {\r\n\tfloat: left;\r\n\twidth: 31.75%;\r\n\tmargin: 0 2% 0 0;\r\n}\r\n.cp-grid-twoThird
+        {\r\n\tfloat: left;\r\n\twidth: 66.25%;\r\n\tmargin: 0 2% 0 0;\r\n}\r\n\r\n.cp-grid-half,
+        .vet-resource .cp-grid-half {\r\n\twidth: 42%;\r\n\tmargin: 0 2% 0 0;\r\n\tpadding:
+        4% 3% 0;\r\n\tfloat: left;\r\n}\r\n.no-cbs-eye .cp-grid-half {\r\n\tpadding:
+        1% 3% 0;\r\n}\r\n.veterans .cp-row .last {\r\n\tmargin-right: 0;\r\n}\r\n.veterans
+        .cp-grid-full {\r\n\tpadding: 0 4%;\r\n\twidth: 92%;\r\n\tfloat: left;\r\n}\r\n.veterans
+        .cp-grid-third {\r\n\tfloat: left;\r\n\twidth: 29.25%;\r\n\tmargin: 0 0% 4%
+        3%;\r\n}\r\n.cp-grid-third.percent-20 {\r\n\twidth: 20%;\r\n}\r\n.cp-grid-third.percent-32
+        {\r\n\twidth: 32%;\r\n}\r\n.veterans .cp-grid-oneThird {\r\n\tfloat: left;\r\n\twidth:
+        29.75%;\r\n\tmargin: 0 4% 0 3%;\r\n}\r\n.veterans .cp-grid-twoThird {\r\n\tfloat:
+        left;\r\n\twidth: 63.25%;\r\n\tmargin: 0 2% 0 0;\r\n}\r\n.cp-grid-oneFourth
+        {\r\n\twidth: 21.75%;\r\n\tpadding: 2%;\r\n\tmargin: 0px 0% 0% 0;\r\n\tfloat:
+        left;\r\n}\r\n.cp-grid-threeFourth {\r\n\twidth: 74.25%;\r\n\tmargin: 0 0%
+        0% 0;\r\n\tfloat:left;\r\n}\r\n.cp-row .last {\r\n\tmargin-right: 0;\r\n}\r\n#cp-content
+        h4 {\r\n\tcolor:#333;\r\n\tfont-size:1.2em;\r\n\tfont-weight:bold;\r\n\tline-height:1.2em;\r\n\tmargin-bottom:
+        10px;\r\n}\r\n#cp-content h5 {\r\n\tcolor:#333;\r\n\tfont-weight:bold;\r\n\tmargin-bottom:
+        10px;\r\n}\r\n#cp-content a {\r\n\tcolor:#0066cc;\r\n\ttext-decoration: none;\r\n}\r\n#cp-content
+        .cp-grid-threeFourth a {\r\n\tcolor: #fff;\r\n\ttext-decoration: underline
+        !important;\r\n}\r\n#cp-content a:hover {\r\n\ttext-decoration:underline;\r\n}\r\n#cp-content
+        img#banner {\r\n\twidth: 100%;\r\n}\r\n#cp-content a {\r\n\ttext-decoration:
+        none !important;\r\n}\r\n\r\n#landing-title h2 {\r\n\tline-height: 1;\r\n}\r\n#cp-content
+        h3, #cp-content .veterans h3 {\r\n\tcolor: #fff;\r\n\tfont-size: 207%;\r\n\tfont-weight:
+        bold;\r\n\tfont-family: helvetica;\r\n\tline-height: 1.2;\r\n\twidth: 94%;\r\n\ttext-shadow:
+        0 2px 2px #000;\r\n\tmargin-top: 2%;\r\n\tmargin-left: 3%;\r\n}\r\n#cp-content.eoe
+        h3 {\r\n\tfont-size: 18px;\r\n\tfont-weight: bold;\r\n\tcolor: #2e639b;\r\n\tline-height:
+        1.4em;\r\n\tmargin-bottom: 10px;\r\n\twidth: auto;\r\n\ttext-shadow: none;\r\n\tmargin-top:
+        0;\r\n\tmargin-left: 0;\r\n}\r\n#cp-content p, #cp-content ul {\r\n\tmargin-bottom:
+        10px;\r\n}\r\n#cp-content p {\r\n\tmargin-top: 5px;\r\n\tmargin-bottom: 5px;\r\n\tcolor:
+        #fff;\r\n\tline-height: 1.2;\r\n}\r\n#cp-content.eoe p {\r\n\tmargin-top:
+        10px;\r\n\tcolor: #333;\r\n\tline-height: 1.2;\r\n}\r\n#cp-content.intern
+        p {\r\nmargin-top: 20px;\r\ncolor: #fff;\r\nline-height: 1.2;\r\nfont-size:
+        138%;\r\n}\r\n.bold {\r\n\tfont-weight: bold;\r\n}\r\nstrong.underline {\r\n\ttext-decoration:
+        underline;\r\n}\r\n/* //////////////////////// end FLEXIBLE HOME PAGE BASE
+        STYLES //////////////////////// */\r\n\r\n\r\n\r\n/* ////////////////////////
+        begin SEARCH //////////////////////// */\r\n.hp-searchContainer {\r\n\tfloat:
+        left;\r\n\twidth: 77%;\r\n\tmargin-left: 9%;\r\n}\r\n#cp-content .cp-row.search-module
+        {\r\n\tpadding: 2%;\r\n\twidth: 92%;\r\n\tbackground: #f2f2f2;\r\n\tposition:
+        absolute;\r\n\ttop: 348px;\r\n\tmargin: 0 2%;\r\n\tz-index: 99;\r\n}\r\n#cp-content
+        .hp-searchTab {\r\n\twidth: 27%;\r\n\tfloat: left;\r\n\tmargin-right: 2%;\r\n}\r\n#cp-content
+        .hp-searchTab label, #cp-content .add-sites h3 {\r\n\tdisplay: block;\r\n\tfont-size:
+        160%;\r\n\tcolor: #616569;\r\n\twidth: 100%;\r\n\ttext-align: left;\r\n\tmargin:
+        0;\r\n\tline-height: 1em;\r\n\tpadding-bottom: 6px;\r\n\tfloat: none;\r\n}\r\n#cp-content
+        .hp-searchTab input {\r\n\tdisplay: block;\r\n\twidth: 96%;\r\n\tborder: 1px
+        solid #ccc;\r\n\tpadding: 2%;\r\n\tfont-size: 1.3em;\r\n}\r\n#cp-content .hp-searchTab.last
+        {\r\n\tmargin-right: 0;\r\n}\r\n#cp-content #hp-searchFooter {\r\n\tmargin-top:
+        1%;\r\n}\r\n#cp-content .searchFooter a {\r\n\tpadding: 0 4px;\r\n\tborder-radius:
+        3px;\r\n}\r\n#cp-content .submit {\r\n\tfloat: left;\r\n\tbackground: #0067cd;\r\n\tborder:
+        none;\r\n\tfont-size: 100%;\r\n\tcolor: white;\r\n\tpadding: 0 2%;\r\n\twidth:
+        12%;\r\n\tmargin: 26px 0 0;\r\n\tline-height: 2.3;\r\n\tcursor: pointer;\r\n\tfont-weight:
+        normal;\r\n\t-webkit-font-smoothing: antialiased;\r\n\r\n}\r\n#cp-content
+        input[type=\"submit\"]:hover {\r\n\tbackground: #70aded;\r\n}\r\n/* ////////////////////////
+        end SEARCH //////////////////////// */\r\n\r\n/* ////////////////////////
+        begin SPECIFIC SITE STYLES //////////////////////// */\r\n\r\n#landing-title
+        {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/landing-title-bg.png')
+        repeat-x 0 0;\r\n\tbackground-color: #cbcfd3;\r\n\tpadding: 25px 40px 20px
+        40px;\r\n}\r\n#landing-title h2 {\r\n\tfont-size: 32px;\r\n\tcolor: #616569;\r\n\ttext-shadow:
+        #FFF 0 1px 0;\r\n\tfloat: left;\r\n\tpadding-top: 12px;\r\n\tpadding-bottom:
+        10px;\r\n}\r\n.veterans #landing-title {\r\n\tpadding: 10px 0px 0px 40px;\r\n}\r\n.veterans
+        #landing-title h2 {\r\n\tpadding-top: 32px;\r\n}\r\n.subnav{\r\n\tmin-height:
+        572px;\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-bg.png')
+        no-repeat right 0;\r\n\r\n}\r\n.subnav ul li {\r\n\tdisplay: inline-block;\r\n\tfloat:
+        left;\r\n\twidth: 210px;\r\n\tborder-top: 1px solid #d8dbde;\r\n}\r\n.subnav
+        ul li {\r\n\tborder-top: none;\r\n}\r\n.subnav ul li a.indent {\r\n\tpadding-left:
+        25px;\r\n}\r\n.subnav ul li a.indent2 {\r\n\tpadding-left: 50px;\r\n}\r\n\r\n.subnav
+        ul li a {\r\n\tdisplay: block;\r\n\tpadding: 7px 15px 6px 15px;\r\n}\r\n.subnav
+        ul li a:hover {\r\n\tcolor: #70aded !important;\r\n}\r\n\r\n.subnav ul li
+        a.selected {\r\n\tcolor: #fff !important;\r\n\tcursor: default;\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n}\r\n\r\n.subnav ul li a.indentselected {\r\n\tpadding-left:
+        25px;\r\n\tcolor: #fff !important;\r\n\tcursor: default;\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n}\r\n.subnav ul li a.indent2selected {\r\n\tpadding-left:
+        50px;\r\n\tcolor: #fff !important;\r\n\tcursor: default;\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n}\r\n.cbs-eye{\r\n\tmin-height: 600px;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/home-bg.jpg')
+        no-repeat -204px -126px;\r\n\t-webkit-font-smoothing: antialiased;\r\n}\r\n.no-cbs-eye{\r\n\tmin-height:
+        611px;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/bg-no-eye.jpg')
+        no-repeat 0 0px;\r\n\t-webkit-font-smoothing: antialiased;\r\n}\r\n.cbs-arch{\r\n\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/cbs-arch2.png') no-repeat
+        center 0px;\r\n\ttext-align: center;\r\n\tposition: absolute;\r\n\twidth:
+        74.25%;\r\n\tbottom: 0;\r\n}\r\n.cbs-arch img {\r\n\tmargin-top: 54px;\r\n\tmargin-bottom:
+        31px;\r\n}\r\n.vet-resource img {\r\n\tborder: 1px solid #C3C3C3;\r\n}\r\n.veterans
+        img.community-involvement {\r\n\tmargin-top: 22%;\r\n\tborder: 2px solid #BC8C08;\r\n}\r\n.no-cbs-eye
+        img, img.border-yellow {\r\n\tborder: 2px solid #BC8C08;\r\n}\r\n\r\n#direct_container
+        .bullets li {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/bullet2.gif')
+        no-repeat 0 7px;\r\n\tpadding-left: 10px;\r\n\tcolor: #fff;\r\n\tfont-weight:
+        bold;\r\n}\r\n.bullets li span{\r\n\tfont-weight: normal;\r\n}\r\nul#pbox-menu
+        li {\r\n\tposition: relative;\r\n\tfloat: left;\r\n\twidth: 19.86%;\r\n\tborder-left:
+        1px solid #ccc;\r\n\tborder-bottom: 1px solid #ccc;\r\n}\r\nul#pbox-menu li
+        a{\r\n\tdisplay: block;\r\n\tborder: 2px solid #fff;\r\n\tpadding: 20% 4%;\r\n\ttext-decoration:none;\r\n\tfont-size:
+        90%;\r\n\tline-height: 1;\r\n\tcolor:#fff;\r\n\tfont-weight: bold;\r\n\tcursor:
+        pointer;\r\n}\r\nul#pbox-menu li a:hover {\r\n\tcolor:#fff !important;\r\n\topacity:
+        .8;\r\n}\r\nul#pbox-menu li.current a {\r\n\tborder: 2px solid transparent;\r\n}\r\nul#pbox-menu
+        li a#sub-logo1{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-01.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo2{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-02.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo3{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-03.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo4{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-04-2.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo5{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-05.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo6{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-06.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo7{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-07.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo8{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-08.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo9{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-09.png')
+        no-repeat center center;\r\n\tbackground-size: 34%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo10{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-10.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo11{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-11.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo12{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-12.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo13{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-13.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo14{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-14.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo15{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-15-2.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo16{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-16.png')
+        no-repeat center center;\r\n\tbackground-size: 60%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo17{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-17.png')
+        no-repeat center center;\r\n\tbackground-size: 50%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo18{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-18.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo19{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-19.png')
+        no-repeat center center;\r\n\tbackground-size: 48%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo20{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-20.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo21{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-21.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo22{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-22.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo23{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-23.png')
+        no-repeat center center;\r\n\tbackground-size: 58%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo24{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-25.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a#sub-logo25{\r\n\tbackground: #fff url('http://seo.nlx.org/cbscorporation.jobs/img/subsidiary-logos/cbs-logo-26.png')
+        no-repeat center center;\r\n\tbackground-size: 70%;\r\n}\r\nul#pbox-menu li
+        a span {\r\n\tposition: absolute;\r\n\tbottom: 8%;\r\n\ttext-shadow: 0 1px
+        2px #000;\r\n}\r\n.pbox-container { \r\n\twidth: 100%;\r\n\tfloat: left;\r\n\tborder-top:
+        5px solid #000;\r\n}\r\n.pbox {\r\n\tdisplay: none;\r\n\tpadding: 1% 2%;\r\n}\r\n#cp-content
+        .pbox p {\r\n\tcolor: #0067cd;\r\n\tpadding: 0 1% 0 0;\r\n\tline-height: 1.0;\r\n}\r\n.pbox
+        {\r\n\tbackground: #fff;\r\n}\r\n#cp-content a.pbox-button {\r\n\tbackground:
+        #0067cd;\r\n\tpadding: .5% 1%;\r\n\tborder-radius: 3px;\r\n\tcolor: #fff;\r\n\tdisplay:
+        block;\r\n\twidth: 186px;\r\n\ttext-align: center;\r\n\tmargin: 1% auto 0;\r\n}\r\n#cp-content
+        a.pbox-button:hover {\r\n\tbackground: #70aded;\r\n}\r\nimg.content-img {\r\n\tbackground:
+        #E4E7EA;\r\n\tmargin: 4% 3% 0 4%;\r\n\tpadding: 3%;\r\n\tfloat: left;\r\n}\r\np.quote
+        {\r\n\tcolor: #fff;\r\n\tmargin: 4.5% 3% 0;\r\n\tfont-size: 120%;\r\n\tline-height:
+        1.55;\r\n\t-webkit-font-smoothing: antialiased;\r\n\twidth: 58%;\r\n}\r\n.pres-img
+        {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/president2.jpg')
+        no-repeat 0 0;\r\n\tpadding: 20% 17.5%;\r\n\tposition: absolute;\r\n\ttop:
+        189px;\r\n\tright: 1px;\r\n}\r\n.italic {\r\n\tfont-style: italic;\r\n}\r\n.veterans{\r\n\tmin-height:
+        600px;\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/vet-bg.jpg')
+        no-repeat 0px -144px;\r\n\t-webkit-font-smoothing: antialiased;\r\n}\r\nimg.vet-eye
+        {\r\n\tposition: absolute;\r\n\ttop: 110px;\r\n\tright: -16px;\r\n\tz-index:
+        9;\r\n}\r\n\r\np.quote2 {\r\n\tcolor: #fff;\r\n\tfont-size: 130%;\r\n\twidth:
+        31%;\r\n\tmargin-top: 14%;\r\n\tmargin-left: 3%;\r\n}\r\np.quote2 span {\r\n\tmargin-left:
+        24%;\r\n\tdisplay: block;\r\n}\r\n#video-display {\r\n\twidth: 494px;\r\n\tmargin:
+        134px auto 0;\r\n}\r\n#video-display iframe {\r\n\tmargin-top: 48px;\r\n\theight:
+        409px;\r\n\twidth: 674px;\r\n}\r\n#player-embed-div {\r\n\tmargin-top: -306px;\r\n\tmargin-left:
+        -88px;\r\n}\r\n.play-button {\r\n\tbackground: #0067cd;\r\n\tpadding: 1%;\r\n\tborder-radius:
+        3px;\r\n\ttext-align: center;\r\n\twidth: 25%;\r\n\tmargin: 20px auto;\r\n\tcolor:
+        #fff;\r\n}\r\n.career #landing-title h2 {\r\n\tpadding-top: 32px;\r\n}\r\n.career
+        #landing-title {\r\n\tpadding: 10px 0px 0px 40px;\r\n}\r\n.career .hp-searchContainer
+        {\r\n\tfloat: left;\r\n\twidth: 75%;\r\n\tmargin-left: 3%;\r\n}\r\n#cp-content.career
+        .hp-searchContainer .hp-searchTab {\r\n\twidth: 42%;\r\n}\r\n#cp-content.career
+        .submit {\r\n\tmargin: 27px 0 0;\r\n\tline-height: 2.5;\r\n}\r\n#compliance-statement
+        p {\r\nfont-size: 11px;\r\ncolor: #CCC;\r\nfloat: left;\r\nwidth: 100%;\r\npadding:
+        0;\r\nmargin-top: 10px;\r\n}\r\n#compliance-statement a {\r\ncolor: #ccc;\r\n}\r\n/*
+        //////////////////////// end SPECIFIC SITE STYLES ////////////////////////
+        */\r\n/* //////////////////////// begin FLEXSLIDER ////////////////////////
+        */\r\n.flexslider .slides img {\r\n\twidth: 68%;\r\n\tmargin: 23% 16% 0;\r\n}\r\n.slides
+        li {\r\n\theight: 489px;\r\n}\r\n#billboard2 iframe {\r\n\tmargin: 10% 10%;\r\n\twidth:
+        80%;\r\n\theight: 315px;\r\n}\r\nbody {width: 100%; float: left; opacity:
+        1; -webkit-transition: opacity 1s ease;}\r\n/* //////////////////////// end
+        FLEXSLIDER //////////////////////// */\r\n.clearfix:after {\r\n\tvisibility:
+        hidden;\r\n\tdisplay: block;\r\n\tfont-size: 0;\r\n\tcontent: \" \";\r\n\tclear:
+        both;\r\n\theight: 0;\r\n}\r\n.clearfix { display: inline-block; }\r\n* html
+        .clearfix { height: 1%; }\r\n.clearfix { display: block; }\r\n#btn-talent-application
+        {\r\n    display: block;\r\n    margin-top: 75px;\r\n    text-align: center;\r\n
+        \   margin-left: 5px;\r\n    margin-right: 5px;\r\n    margin-bottom: -40px;\r\n
+        \   color: #444;\r\nline-height: 1.5;\r\n}\r\n#btn-talent-application a {\r\n
+        \   color: #fff !important;\r\n    padding: 10px;\r\n    background: #0067cd;\r\n
+        \   font-size: 13px;\r\n    border-radius: 3px;\r\n    display: block;\r\n
+        \   font-size: 120%;\r\n}\r\n#btn-talent-application a span {\r\n    display:
+        block;\r\n    font-size: 80%;\r\nfont-style: italic;\r\n}\r\n/*//////////////////start
+        MOBILE////////////////////*/\r\n@media screen and (max-width: 800px){\r\n#btn-talent-application
+        {\r\n    margin-top: 10px;\r\n    margin-bottom: 15px;\r\n}\r\n\thtml, body
+        {\r\n\t\tmax-width: 100%;\r\n\t}\r\n\tbody {\r\n\t\t-webkit-font-smoothing:
+        antialiased;\r\n\t}\r\n\t#direct_header, #direct_footer, .searchContainer,
+        #direct_listingDiv {\r\n\t\tmargin: 0 0px !important;\r\n\t}\r\n\t#direct_container
+        .direct_searchContainer, #direct_disambiguationDiv {\r\n\t\twidth: 96%;\r\n\t\tmargin-top:
+        0px;\r\n\t\tbackground-color: #f2f2f2;\r\n\t\tpadding: 2%;\r\n\t\tborder-top:
+        2px groove;\r\n\t\tborder-bottom: 2px ridge;\r\n\t\tclear: both;\r\n\t}\r\n\t#direct_shareDiv.direct_shareSolo
+        {\r\n\t\twidth: 100%;\r\n\t}\r\n\t#direct_shareDiv.direct_shareSolo, #direct_disambiguationDiv
+        {\r\n\t\tmargin-top: 28px;\r\n\t}\r\n\t#direct_shareDiv.direct_shareSolo {\r\n\t\tborder-top:
+        2px groove;\r\n\t\tborder-bottom: 2px ridge;\r\n\t}\r\n\t#standardSearch .searchHeader
+        {\r\n\t\twidth: 100% !important;\r\n\t}\r\n\t#direct_container .searchTab
+        input {\r\n\t\twidth: 98% !important;\r\n\t\tmargin-right: 0px;\r\n\t\tpadding-left:
+        5px;\r\n\t\tpadding-right: 0px;\r\n\t}\r\n\t#direct_container .direct_searchContainer
+        .btn.primary {\r\n\t\tbackground-position: center -30px !important;\r\n\t\t-moz-border-radius:
+        3px !important;\r\n\t\t-webkit-border-radius: 3px !important;\r\n\t\tborder-radius:
+        3px !important;\r\n\t\theight: 40px !important;\r\n\t}\r\n\t#standardSearch
+        .searchFooter a, #direct_companyList a {\r\n\t\tborder: 0px solid #666 !important;\r\n\t\tpadding:
+        10px !important;\r\n\t\t-webkit-border-radius: 3px !important;\r\n\t\t-moz-border-radius:
+        3px !important;\r\n\t\tborder-radius: 3px !important;\r\n\t\tcolor: #fff !important;\r\n\t}\r\n\t#direct_moreLessLinks_jobListing
+        .direct_optionsMore, .more_less_links_container .direct_optionsMore, a.direct_mobileJumpLink
+        {\r\n\t\tdisplay: block;\r\n\t\ttext-align: center;\r\n\t\twidth: 75%;\r\n\t\tmargin-left:
+        auto;\r\n\t\tmargin-right: auto;\r\n\t\tcolor: white;\r\n\t\tborder-radius:
+        3px;\r\n\t}\r\n\th3.direct_highlightedText {\r\n\t\tmargin-top: 10px !important;\r\n\t\tmargin-bottom:
+        0 !important;\r\n\t\tpadding-bottom: 6px !important;\r\n\t\tbackground: #fff
+        !important;\r\n\t\tborder-bottom: none !important;\r\n\t}\r\n\t#direct_listingDiv
+        a, a.direct_mobileJumpLink {\r\n\t\t-moz-border-radius: 0px !important;\r\n\t\t-webkit-border-radius:
+        0px !important;\r\n\t\tborder-radius: 0px !important;\r\n\t\tborder-width:
+        0px !important;\r\n\t\tborder-style: none !important;\r\n\t\tcolor: white
+        !important;\r\n\t\tfont-weight: normal !important;\r\n\t}\r\n\t#direct_listingDiv
+        #direct_applyButtonBottom a {\r\n\t\t-moz-border-radius: 3px !important;\r\n\t\t-webkit-border-radius:
+        3px !important;\r\n\t\tborder-radius: 3px !important;\r\n\t}\r\n\t#direct_listingDiv
+        a span:hover, a.direct_mobileJumpLink:hover {\r\n\t\tfont-weight: normal !important;\r\n\t}\r\n\tli
+        .direct_joblocation {\r\n\t\tcolor: #fff;\r\n\t\tpadding-left: 18px;\r\n\t}\r\n\t#button_moreJobs
+        {\r\n\t\twidth: 72%;\r\n\t\tmargin-left: 0px;\r\n\t\tmargin: 0 auto;\r\n\t\tborder-radius:
+        3px;\r\n\t\tcolor: white !important;\r\n\t\tfont-weight: normal !important;\r\n\t}\r\n\t.direct_joblisting
+        {\r\n\t\tpadding: 0 0 0px 0;\r\n\t\tborder-top: 2px ridge;\r\n\t}\r\n\t#direct_listingDiv
+        a .resultHeader {\r\n\t\tpadding: 12px 0 0 12px;\r\n\t\tborder-radius: 0;\r\n\t\tdisplay:
+        block;\r\n\t}\r\n\t#direct_moreLessLinks_jobListing .direct_optionsMore, .more_less_links_container
+        .direct_optionsMore, a.direct_mobileJumpLink {\r\n\t\tpadding: 10px !important;\r\n\t\tborder-radius:
+        3px !important;\r\n\t}\r\n\t#direct_listingDiv .featured_jobListing a {\r\n\t\tbackground:
+        transparent !important;\r\n\t}\r\n\t#direct_listingDiv .featured_jobListing
+        a:hover {\r\n\t}\r\n\t#direct_listingDiv .featured_jobListing a span:hover
+        {\r\n\t\tbackground: none;\r\n\t\tbackground-color: transparent;\r\n\t}\r\n\t#direct_listingDiv
+        a:link, #direct_listingDiv a:visited, #direct_listingDiv a:hover {\r\n\t\tfont-weight:
+        normal !important;\r\n\t}\r\n\t.featured_jobListing {\r\n\t\tbackground-color:
+        #f2f2f2;\r\n\t\tborder: none;\r\n\t\t-moz-border-radius: 3px;\r\n\t\t-webkit-border-radius:
+        3px;\r\n\t\tborder-radius: 3px;\r\n\t\tpadding: 24px 0px 0 0px !important;\r\n\t\tmargin:
+        0 0px !important;\r\n\t\tborder-top: 2px ridge #fff;\r\n\t}\r\n\t.featured_jobListing
+        li .direct_joblocation {\r\n\t\tcolor: #666;\r\n\t}\r\n\t.featured_jobListing
+        .direct_joblocation {\r\n\t\tmargin-left: 24px !important;\r\n\t}\r\n\t.featured_jobListing
+        h4 {\r\n\t\tbackground-position: 14px 18px;\r\n\t}\r\n\t.featured_jobs_note
+        {\r\n\t\ttop: 2px;\r\n\t\tright: 6px;\r\n\t}\r\n\t#direct_listingDiv a#button_moreJobs
+        {\r\n\t\twidth: 76%;\r\n\t\tmargin: 0 auto;\r\n\t\tpadding: 10px;\r\n\t\tborder-radius:
+        3px !important;\r\n\t}\r\n\t#direct_disambiguationDiv a {\r\n\t\t-moz-border-radius:
+        3px !important;\r\n\t\t-webkit-border-radius: 3px !important;\r\n\t\tborder-radius:
+        3px !important;\r\n\t\tborder-width: 0 !important;\r\n\t\tcolor: #fff !important;\r\n\t\tfont-weight:
+        normal !important;\r\n\t}\r\n\tdiv.direct_offsiteHoverDiv {\r\n\t\tborder:
+        none;\r\n\t}\r\n\t#direct_disambiguationDiv li a {\r\n\t\tmargin-left: 14px
+        !important;\r\n\t\tmargin-right: 14px !important;\r\n\t\tpadding-top: 10px
+        !important;\r\n\t\tpadding-bottom: 10px !important;\r\n\t}\r\n\t#direct_micrositeCarousel
+        {\r\n\t\tpadding: 10px 38px !important;\r\n\t}\r\n\t#direct_micrositeCarousel
+        .scrollable li>a, #direct_micrositeCarousel .scrollable li>a:hover {\r\n\t\tborder:
+        none !important;\r\n\t}\r\n\t#direct_colophon div div a, #direct_colophon
+        div div a:hover {\r\n\t\tmargin-left: 28px !important;\r\n\t}\r\n\t#browsable
+        ul li a {\r\n\t\tcolor: white;\r\n\t\tfont-weight: 300 !important;\r\n\t}\r\n\t#direct_micrositeCarousel
+        .scrollable {\r\n\t\tposition: relative !important;\r\n\t\toverflow: hidden
+        !important;\r\n\t}\r\n\t#browsable ul {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.navi
+        {\r\n\t\tdisplay:none;\r\n\t}\r\n\t#direct_micrositeCarousel ul {\r\n\t\tmargin-top:
+        0px !important;\r\n\t}\r\n\t#browsable ul {\r\n\t\twidth: 100% !important;\r\n\t}\r\n\t.items
+        div {\r\n\t\tmargin-bottom: -10px !important;\r\n\t}\r\n\t#direct_container
+        .searchTab input {\r\n\t\tpadding-left: 2% !important;\r\n\t\tpadding-top:
+        4px !important;\r\n\t\tpadding-bottom: 4px !important;\r\n\t}\r\n\t.directseo_jobsnippet
+        {\r\n\t\tborder-width: 0 !important;\r\n\t\tpadding: 4px 20px 8px !important;\r\n\t\tcolor:
+        white !important;\r\n\t\tmargin: 0 !important;\r\n\t\t-moz-border-radius:
+        0px !important;\r\n\t\t-webkit-border-radius: 0px !important;\r\n\t\tborder-radius:
+        0px !important;\r\n\t}\r\n\t.featured_jobListing .directseo_jobsnippet {\r\n\t\tbackground:
+        #f2f2f2 !important;\r\n\t\tcolor: #666 !important;\r\n\t\tpadding-left: 44px
+        !important;\r\n\t}\r\n\t#direct_container .direct_searchContainer {\r\n\t\tbackground-color:
+        #f2f2f2 !important;\r\n\t\tbackground-image: none !important;\r\n\t}\r\n\t#direct_dotjobsMetaBoxSearch
+        #standardSearch {\r\n\t\tborder: none !important;\r\n\t}\r\n\t#direct_container
+        #direct_dotjobsMetaBoxSearch .searchTab label {\r\n\t\tcolor: #666 !important;\r\n\t\tfont-size:
+        2em;\r\n\t\tpadding-bottom: 1px;\r\n\t}\r\n\t#direct_container #direct_dotjobsMetaBoxSearch
+        .searchTab input {\r\n\t\tpadding-top: 5px !important;\r\n\t\tpadding-bottom:
+        5px !important;\r\n\t}\r\n\t.btn {\r\n\t\t-webkit-box-shadow: inset 0 0px
+        0 rgba(255, 255, 255, 0.2),0 0px 0px rgba(0, 0, 0, 0.05);\r\n\t\t-moz-box-shadow:
+        inset 0 0px 0 rgba(255, 255, 255, 0.2),0 0px 0px rgba(0, 0, 0, 0.05);\r\n\t\tbox-shadow:
+        inset 0 0px 0 rgba(255, 255, 255, 0.2),0 0px 0px rgba(0, 0, 0, 0.05);\r\n\t}\r\n\t#direct_dotjobsMetaBoxSearch
+        #standardSearch .searchFooter {\r\n\t\tpadding: 0px 0 0px 0 !important;\r\n\t\tmargin-top:
+        0px !important;\r\n\t}\r\n\t#direct_dotjobsMetaBoxSearch .row {\r\n\t\tbackground:
+        #f2f2f2;\r\n\t}\r\n\t#direct_dotjobsFilterCarousel .direct_dotjobsFilterContainer
+        {\r\n\t\tbackground: #f2f2f2 !important;\r\n\t\tborder: 0px solid #e0e0e0
+        !important;\r\n\t}\r\n\t#direct_dotjobsFilterCarousel {\r\n\t\tborder-top:
+        2px groove;\r\n\t\tborder-bottom: 2px ridge;\r\n\t}\r\n\t.direct_dotjobsFilterContainer
+        h3 {\r\n\t\tbackground: #f2f2f2;\r\n\t\tborder: 0px solid #e0e0e0;\r\n\t\tline-height:
+        30px;\r\n\t\tfont-size: 20px;\r\n\t}\r\n\t#direct_shareDiv {\r\n\t\tpadding:
+        12px 0 !important;\r\n\t}\r\n\t#direct_dotjobsCustomNavBar a, #direct_dotjobsFilterCarousel
+        .direct_dotjobsFilterContainer a, #direct_innerContainer .company_group ul
+        a, .direct_dotjobsFilterContainer a, #direct_container #direct_allCompaniesFamilyLinks
+        a {\r\n\t\tcolor: white;\r\n\t\tborder-width: 0;\r\n\t\tpadding: 11px 20px;\r\n\t\t-webkit-border-radius:
+        3px;\r\n\t\t-moz-border-radius: 3px;\r\n\t\tborder-radius: 3px;\r\n\t\tmargin:
+        5px auto;\r\n\t}\r\n\ta.direct_optionsMore {\r\n\t\tcolor: white !important;\r\n\t\tfont-weight:
+        normal !important;\r\n\t}\r\n\t#direct_applyButtonBottom {\r\n\t\tmargin:
+        0 14px;\r\n\t}\r\n\t#direct_listingDiv a:hover .resultHeader {\r\n\t\tbackground-color:
+        #transparent !important;\r\n\t}\r\n\t#direct_nav a:hover{ \r\n\t\tbackground-color:
+        #383838 !important;\r\n\t\tbackground-image: none !important;\r\n\t}\r\n\t#direct_micrositeCarousel
+        .scrollable li>a, #direct_micrositeCarousel .scrollable li>a:hover {\r\n\t\t-webkit-border-radius:
+        3px !important;\r\n\t\t-moz-border-radius: 3px !important;\r\n\t\tborder-radius:
+        3px !important;\r\n\t}\r\n\t#direct_listingDiv a:hover .resultHeader {\r\n\t\tfont-weight:
+        normal !important;\r\n\t}\r\n\t.ui-menu-item a, .ui-menu-item-alternate a
+        {\r\n\t\twidth: 92%;\r\n\t\tpadding: 16px 4%;\r\n\t}\r\n\t#standardSearch
+        .searchFooter a, #direct_companyList a, \r\n\t#direct_moreLessLinks_jobListing
+        .direct_optionsMore, .more_less_links_container .direct_optionsMore, a.direct_mobileJumpLink,\r\n\t#direct_listingDiv
+        a, a.direct_mobileJumpLink,\r\n\t#direct_disambiguationDiv a,\r\n\t#browsable
+        ul li a,\r\n\t.directseo_jobsnippet,\r\n\t#direct_dotjobsCustomNavBar a, #direct_dotjobsFilterCarousel
+        .direct_dotjobsFilterContainer a, #direct_innerContainer .company_group ul
+        a, .direct_dotjobsFilterContainer a, #direct_container #direct_allCompaniesFamilyLinks
+        a,\r\n\ta.direct_optionsMore, #email-button {\r\n\t\tbackground: #0067cd !important;
+        /* BRAND COLOR GOES Here */\r\n\t\tbackground-color: #0067cd !important; /*
+        BRAND COLOR GOES Here */\r\n\t}\r\n\t#direct_listingDiv .featured_jobListing
+        a,\r\n\t#direct_listingDiv .featured_jobListing a:hover,\r\n\t.featured_jobs_note
+        {\r\n\t\tcolor: #0067cd !important; /* BRAND COLOR GOES Here */\r\n\t}\r\n}\r\n/*//////////////////end
+        MOBILE////////////////////*/\r\n/* //////////////////////// Mobile Navigation
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ \r\n#mobile-nav
+        {\r\n\tdisplay: none;\r\n}\r\n@media screen and (max-width: 800px) {\r\n\t#logoContainer
+        {\r\n\t\twidth: 100%;\r\n\t\tbackground: #020A12;\r\n\t}\r\n\t#jumpSwitch
+        {\r\n\t\tdisplay: none;\r\n\t}\r\n\t#mobile-nav {\r\n\t\tdisplay: block;\r\n\t}\r\n\t#modal-bg
+        {\r\n\t\tbackground: rgba(0,0,0,.6);\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\r\n\t\tposition:
+        fixed;\r\n\t\ttop: 0;\r\n\t\tleft: 0;\r\n\t\tz-index: 1;\r\n\t\tdisplay: none;\r\n\t}\r\n\t.mobile-nav-container
+        {\r\n\t\tbackground: rgba(0,0,0,1);\r\n\t\twidth: 100%;\r\n\t\tpadding: 0;\r\n\t\tborder-top:
+        1px solid #5A5A5A;\r\n\t\tborder-bottom: 1px solid #5A5A5A;\r\n\t\tdisplay:
+        block;\r\n\t\tposition: relative;\r\n\t\tz-index: 999;\r\n\t}\r\n\tul#tab-menu
+        \ {\r\n\t\tfloat: left;\r\n\t\twidth: 92%;\r\n\t\tpadding: 0 4%;\r\n\t}\r\n\tul#tab-menu
+        li {\r\n\t\tdisplay: inline-block;\r\n\t\tfloat: right;\r\n\t\twidth: 25%;\r\n\t}\r\n\tul#tab-menu
+        li a,\r\n\tul#tab-menu li a:hover {\r\n\t\tbackground: rgba(0,0,0,1);\r\n\t\tfont-size:
+        125%;\r\n\t\tfont-weight: normal;\r\n\t\tcolor: #fff !important;\r\n\t\ttext-decoration:
+        none;\r\n\t\tborder-right: 2px groove #5A5A5A;\r\n\t\tpadding: 10px 2%;\r\n\t\tdisplay:
+        block;\r\n\t\ttext-align: center;\r\n\t}\r\n\tul#tab-menu li:last-child a
+        {\r\n\t\tborder-right: none;\r\n\t}\r\n\ta#hamburger span {\r\n\t\tmargin-right:
+        4px;\r\n\t}\r\n\ta#hamburger {\r\n\t\tcursor: pointer;\r\n\t}\r\n\ta#hamburger
+        img {\r\n\t\tdisplay: inline-block;\r\n\t\tvertical-align: middle;\r\n\t\tmargin-left:
+        5%;\r\n\t}\r\n\tul#hamburger-menu {\r\n\t\twidth: 92%;\r\n\t\tpadding: 0 4%
+        6%;\r\n\t\tmargin: 0;\r\n\t\tdisplay: none;\r\n\t\tclear: both;\r\n\t\tfloat:
+        left;\r\n\t}\r\n\tul#hamburger-menu li a, \r\n\tul#hamburger-menu li a:hover
+        {\r\n\t\tdisplay: block;\r\n\t\tmargin: 0;\r\n\t\tpadding: 4%;\r\n\t\tbackground:
+        #0067cd;\r\n\t\tborder-bottom: 2px groove #0179B4;\r\n\t\tcolor: #fff;\r\n\t\tfont-size:
+        125%;\r\n\t\tfont-weight: normal;\r\n\t\ttext-decoration: none;\r\n\t}\r\n\tul#hamburger-menu
+        li:last-child a {\r\n\t\tborder-bottom: none;\r\n\t}\r\n\tul#hamburger-menu
+        li a.indent2 {\r\n\t\tpadding-left: 12%;\r\n\t}\r\n\tul#hamburger-menu li
+        a.indent {\r\n\t\tpadding-left: 8%;\r\n\t}\r\n\tul#hamburger-menu li a.indent2selected
+        {\r\n\t\tpadding-left: 12%;\r\n                color: #fff !important;\r\n\t
+        \       cursor: default;\r\n\t        background: url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n\t}\r\n\r\n\tul#hamburger-menu li a.indentselected {\r\n\t\tpadding-left:
+        8%;\r\n                color: #fff !important;\r\n\t        cursor: default;\r\n\t
+        \       background: url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n\t}\r\n\t.fixed {\r\n\t\tposition: fixed; \r\n\t\ttop: 0px;
+        \r\n\t}\r\n}\r\n@media screen and (max-width: 500px) {\r\n\tul#tab-menu li
+        a,\r\n\tul#tab-menu li a:hover,\r\n\tul#hamburger-menu li a, \r\n\tul#hamburger-menu
+        li a:hover {\r\n\t\txfont-size: 3vw;\r\n\t}\r\n\ta#hamburger img {\r\n\t\tmax-width:
+        16%;\r\n\t}\r\n\tul#hamburger-menu li a, \r\n\tul#hamburger-menu li a:hover
+        {\r\n\t\tpadding: 4%;\r\n\t}\r\n}\r\n/* //////////////////////// Mobile Navigation
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/\r\n@media screen
+        and (max-width:800px){\r\n\t#direct_header h1#direct_mobileH1 {\r\n\t\tdisplay:
+        none !important;\r\n\t}\r\n\r\n\t#direct_wideHeader {\r\n\t\tdisplay: block
+        !important;\r\n\t}\r\n\t#nav {\r\n\t\tdisplay: none;\r\n\t}\r\n\t#direct_innerContainer
+        {\r\n\t\twidth: auto !important;\r\n\t\tpadding: 0 !important;\r\n\t}\r\n\t.veterans
+        #landing-title, .career #landing-title {\r\n\t\tpadding: 0px 0px 0px 4%;\r\n\t}\r\n\t.hp-searchContainer,
+        .career .hp-searchContainer {\r\n\t\twidth: 96%;\r\n\t\tmargin-left: 0;\r\n\t}\r\n\t.cp-grid-oneFourth
+        {\r\n\t\tdisplay: none;\r\n\t}\r\n\t.cp-grid-threeFourth{\r\n\t\tmin-height:
+        660px;\r\n\t}\r\n\t.cp-grid-threeFourth, .cbs-arch {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.cbs-eye
+        {\r\n\t\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/home-bg.jpg')
+        no-repeat -204px 0;\r\n\t\t-webkit-background-size: cover;\r\n\t\t-moz-background-size:
+        cover;\r\n\t\t-o-background-size: cover;\r\n\t\tbackground-size: cover;\r\n\r\n\t}\r\n\t.no-cbs-eye
+        {\r\n\t\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/bg-no-eye.jpg')
+        no-repeat 0 0px;\r\n\t\t-webkit-background-size: cover;\r\n\t\t-moz-background-size:
+        cover;\r\n\t\t-o-background-size: cover;\r\n\t\tbackground-size: cover;\r\n\t}\r\n\t.cbs-arch
+        {\r\n\t\tbackground-size: cover;\r\n\t}\r\n\t.veterans {\r\n\t\tbackground:
+        url('http://seo.nlx.org/cbscorporation.jobs/img/vet-bg.jpg') no-repeat 0px
+        -100px;\r\n\t\tbackground-size: 100%;\r\n\t}\r\n\timg.vet-eye {\r\n\t\ttop:
+        210px;\r\n\t\twidth: 65%;\r\n\t}\r\n\tp.quote2 {\r\n\t\twidth: 36%;\r\n\t}\r\n\t.pres-img
+        {\r\n\t\tpadding: 24% 22%;\r\n\t\ttop: 245px;\r\n\t}\r\n}\r\n@media screen
+        and (max-width:500px){\r\n\r\n\t#cp-content .hp-searchTab, #cp-content.career
+        .hp-searchContainer .hp-searchTab {\r\n\t\twidth: 100%;\r\n\t\tmargin-right:
+        0;\r\n\t}\r\n\t.cp-grid-third, .veterans .cp-grid-third, .veterans .cp-grid-twoThird,
+        .veterans .cp-grid-oneThird, .no-cbs-eye .cp-grid-half, .cp-grid-half, .vet-resource
+        .cp-grid-half, .veterans .cp-grid-full {\r\n\t\tfloat: left;\r\n\t\twidth:
+        94%;\r\n\t\tmargin: 2% 3% 0%;\r\n\t\tpadding: 0;\r\n\t}\r\n\t.cp-grid-third.percent-20,
+        .cp-grid-third.percent-32 {\r\n\t\twidth: 94%;\r\n\t}\r\n\t.no-cbs-eye .cp-grid-half
+        {\r\n\t\tpadding: 0;\r\n\t}\r\n\t#cp-content .submit {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.cp-grid-threeFourth
+        {\r\n\t\tmin-height: 590px;\r\n\t}\r\n\t.veterans h3 {\r\n\t\tfont-size: 150%;\r\n\t\twidth:
+        100%;\r\n\t}\r\n\tp.quote2 {\r\n\t\twidth: 88%;\r\n\t}\r\n\tul#pbox-menu li
+        {\r\n\t\twidth: 24.58%;\r\n\t}\r\n\timg.vet-eye {\r\n\t\tposition: relative;\r\n\t\ttop:
+        10px;\r\n\t\tright: -101px;\r\n\t}\r\n\t.cbs-arch img {\r\n\t\tmargin-top:
+        22px;\r\n\t\tmargin-bottom: 0px;\r\n\t\twidth: 25%;\r\n\t}\r\n\t.veterans
+        {\r\n\t\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/vet-bg.jpg')
+        no-repeat 0px 0px;\r\n\t\t-webkit-background-size: cover;\r\n\t\t-moz-background-size:
+        cover;\r\n\t\t-o-background-size: cover;\r\n\t\tbackground-size: cover;\r\n\t}\r\n\t.flexslider
+        .slides img {\r\n\t\twidth: 68%;\r\n\t\tmargin: 44% 0 0 2%;\r\n\t}\r\n\t.flexslider
+        .slides img {\r\n\t\twidth: 96%;\r\n\t}\r\n\t#billboard2 iframe {\r\n\t\tmargin-top:
+        33%;\r\n\t\theight: 212px;\r\n\t\twidth: 94%;\r\n\t}\r\n\t#player-embed-div
+        {\r\n\t\tmargin-top: -174px;\r\n\t\tmargin-left: 0;\r\n\t}\r\n\t#logo a {\r\n\t\tbackground-size:
+        contain;\r\n\t\theight: 70px;\r\n\t\twidth: 280px;\r\n\t}\r\n\tp.quote {\r\n\r\n\t\tfont-size:
+        114%;\r\n\t\twidth: 94%;\r\n\t}\r\n\t.pres-img {\r\n\t\tdisplay: none;\r\n\t}\r\n\t.cbs-arch
+        {\r\n\t\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/cbs-arch2.png')
+        no-repeat center 0px;\r\n\t\tposition: relative;\r\n\t\tbackground-size: 100%;\r\n\t\tclear:
+        both;\r\n\t}\r\n\t.cp-grid-threeFourth {\r\n\t\tmin-height: auto;\r\n\t}\r\n}\r\n\r\n#button_moreJobs
+        {\r\nmargin-bottom: 20px;\r\n}\r\n\r\n#direct_applyButtonBottom {\r\nmargin-bottom:
+        20px;\r\n}\r\n/*////////////////// job listing page //////////////////*/\r\n\r\n#direct_container
+        .direct_searchContainer, #direct_header, #direct_footer {\r\n\tdisplay: none;\r\n}\r\n#direct_innerContainer
+        {\r\n\tbackground: #0F2D4D url('http://seo.nlx.org/cbscorporation.jobs/img/container-bg3.jpg');\r\n\twidth:
+        971px;\r\n\tmargin: 0 auto;\r\n\tpadding: 0;\r\n}\r\n#direct_disambiguationDiv,
+        #direct_companyModule, #direct_applyDiv, #direct_shareDiv {\r\n\tbackground-color:
+        #D8DBDE;\r\n}\r\n#direct_jobDescriptionText {\r\ncolor: #fff;\r\n}\r\ndiv#direct_header
+        {\r\n\twidth: 970px;\r\n\tmargin-left: -35px;\r\n}\r\n.direct_highlightedText,
+        .direct_joblisting a {\r\n\tcolor: #fff !important;\r\n}\r\n#direct_disambiguationDiv
+        .direct_highlightedText {\r\n\tcolor: #0064D0 !important;\r\n}\r\n#direct_footer
+        {\r\n\twidth: 970px;\r\n}\r\n#direct_footer .cbs-arch {\r\n\tbackground: url('http://seo.nlx.org/cbscorporation.jobs/img/cbs-arch2.png')
+        no-repeat center 0px;\r\n\tbackground-size: 100%;\r\n\ttext-align: center;\r\n\tposition:
+        relative;\r\n\twidth: 100%;\r\n\tmargin-left: -35px;\r\n\tbottom: 0;\r\n}\r\n@media
+        screen and (max-width:800px){\r\ndiv#direct_header {\r\nwidth: 100%;\r\n}\r\n#direct_footer
+        .cbs-arch {\r\nmargin-left: 100%;\r\n}\r\na.direct_mobileJumpLink {\r\ndisplay:
+        none !important;\r\n}\r\n}\r\n\r\n\r\n#youtube-video {\r\n\tbackground-color:
+        #D8DBDE;\r\n\tborder: 1px solid #D8DBDE;\r\n\twidth: 300px;\r\n\tfloat: right;\r\n\tmargin-top:
+        18px;\r\n\tpadding: 14px;\r\n\tclear: right;\r\n}\r\n.direct_rightColBox #youtube-video
+        {\r\n\tpadding: 0;\r\n}\r\n#youtube-video iframe {\r\n\twidth: 300px;\r\n\theight:
+        169px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n#youtube-video
+        {\r\n  width: 96%;\r\n  height: auto;\r\n  padding: 2%;\r\n}\r\n\t#youtube-video
+        iframe {\r\n\t\twidth: 100%;\r\n\t\theight: 450px;\r\n\t\txfloat: none;\r\n\t\txclear:
+        none;\r\n\t\txmargin-left: 2%;\r\n\t\txmargin-right: auto;\r\n\t\txpadding:
+        4%;\r\n\t}\r\n\tiframe {\r\n\t\txwidth: 100%;\r\n\t\txheight: 100%;\r\n\t}\r\n}\r\n\r\n.right
+        {\r\n  float: right;\r\n}\r\n#jumpSwitch {\r\n  float: left;\r\n  padding-top:
+        34px;\r\nmargin-right: 10px;\r\n}\r\ndiv.login a {\r\n    color: #ADCFF0;\r\n
+        \   text-decoration: none;\r\n    margin: 0 2px;\r\n    padding: 2px 14px;\r\n
+        \   background: url('http://seo.nlx.org/cbscorporation.jobs/img/sub-navi-a-selected-bg.png')
+        repeat-x 0 0;\r\n    font-size: 14px;\r\n}\r\n.login {\r\n    margin-top:
+        33px;\r\n    float: right;\r\n    right: 10px;\r\n\r\n    color: white;\r\n}\r\n#current-employees
+        {\r\n    /*margin-top: 14px;*/\r\n    width: 230px;\r\n    text-align: center;\r\n
+        \   font-size: 90%;\r\n}\r\n#direct_innerContainer div.login {\r\n  width:
+        302px;\r\n  margin-top: 0;\r\n  margin-bottom: 14px;\r\n  float: right;\r\n
+        \ background: #D8DBDE;\r\n  padding: 0px;\r\n\r\n}\r\n#direct_applyDiv.direct_rightColBox
+        .login {\r\npadding: 0;\r\n}\r\n#direct_innerContainer div.login a {\r\n  width:
+        100%;\r\n  display: block;\r\n  padding: 8px 0;\r\n  text-align: center;\r\n}\r\n#direct_innerContainer
+        div.login a:hover {\r\n  color: #ADCFF0 !important;\r\n}\r\n@media screen
+        and (max-width: 800px) {\r\n#direct_innerContainer div.login {\r\n  width:
+        96%;\r\n  padding: 14px 2%;\r\n  position: relative;\r\n  top: 0;\r\n  right:
+        0;\r\n}\r\n}\r\n@media screen and (max-width: 500px) {\r\ndiv.login:nth-child(2)
+        {\r\n    top: 18px;\r\n}\r\ndiv.login {\r\n    position: absolute;\r\n    top:
+        48px;\r\n    right: 10px;\r\n}\r\n#youtube-video iframe {\r\n  height: 169px;\r\n}\r\n}\r\n\r\n\r\n\r\n\r\n</style>
+        \ \n\n    \n    <meta property=\"og:title\" content=\"Sports Anchor in New
+        York, New York, United States\"/>\n    <meta property=\"og:type\" content=\"article\"/>\n
+        \   <meta property=\"og:url\" content=\"http://cbscorporation.jobs/new-york-ny/sports-anchor/2119543DE34D4928A30422726AC73AB3/job/?utm_campaign=Indeed&amp;vs=1554&amp;utm_medium=Job%20Aggregator&amp;utm_source=Indeed-DE\"/>\n
+        \   <meta property=\"og:image\" content=\"\"/>\n    <meta property=\"og:site_name\"
+        content=\"CBS Corporation Jobs\"/>\n\n\n    <link rel=\"stylesheet\" href=\"/style/def.ui.microsite.mobile.css\"
+        type=\"text/css\">\n\n    <style>\n        #addThis {\n            float:
+        none;\n        }\n    </style>\n\n    <!-- Quantcast Tag, part 1 --> \n<script
+        type=\"text/javascript\">\n  var _qevents = _qevents || [];\n  (function()
+        {\n   var elem = document.createElement('script');\n   elem.src = (document.location.protocol
+        == \"https:\" ? \"https://secure\" : \"http://edge\")\n               + \".quantserve.com/quant.js\";\n
+        \  elem.async = true;\n   elem.type = \"text/javascript\";\n   var scpt =
+        document.getElementsByTagName('script')[0];\n   scpt.parentNode.insertBefore(elem,
+        scpt);  \n  })();\n</script>\n\n\n</head>\n\n<body itemscope itemtype=\"http://schema.org/ItemPage\">\n<a
+        name=\"top\"></a>\n\n<div id=\"direct_wideHeader\">\n    \n\n \n    <div id=\"mobile-nav\"
+        class=\"mobile-nav-container clearfix\">\r\n\t<ul id=\"tab-menu\">\r\n\t\t<li>\r\n\t\t\t<a
+        id=\"hamburger\">\r\n\t\t\t\t<span>Menu</span><img src=\"http://seo.nlx.org/img/mobile-menu-icon.png\">\r\n\t\t\t</a>\r\n\t\t</li>\r\n\t</ul>\r\n\t\t<ul
+        id=\"hamburger-menu\">\r\n\t\t\t<li style=\"border-top-style: none;\"><a href=\"http://cbscorporation.jobs/\"
+        class=\"\">Who We Are</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/a-message-from-our-president/\"
+        class=\"indent\">CEO Welcome</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/what-we-do/\"
+        class=\"indent\">Our Portfolio</a></li>\r\n\t\t\t<!--<li><a href=\"http://cbscorporation.jobs/meet-our-people/\"
+        class=\"indent\">Meet Our People</a></li>-->\r\n\t\t\t<li><a href=\"http://diversity.cbscorporation.com/\"
+        class=\"\">Diversity</a></li>\r\n\t\t\t<li><a href=\"http://diversity.cbscorporation.com/journey.php\"
+        class=\"indent\">My CBS Journey</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/\"
+        class=\"\">Veterans</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/community-involvement/\"
+        class=\"indent\">Community Involvement</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/veterans-resources/\"
+        class=\"indent\">Veterans Resources</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/corporate-citizenship/\"
+        class=\"\">Corporate Citizenship</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/benefits/\"
+        class=\"\">Benefits</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/jobs/\"
+        class=\"\">Search Jobs</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/internships/\"
+        class=\"indent\">Internships</a></li>\r\n\t\t</ul>\r\n</div>\r\n\r\n<script>\r\n$(document).ready(function(){\r\n\t$(window).on('scroll',
+        function() {\r\n\t\tif ($(window).scrollTop() > 60) {\r\n\t\t\t$('.mobile-nav-container').addClass('fixed');\r\n\t\t}
+        else {\r\n\t\t\t$('.mobile-nav-container').removeClass('fixed');\r\n\t\t}\r\n\t});\r\n});\r\n$('a#hamburger').click(
+        function(event){ \t\t\t\t\r\n\tevent.preventDefault();\r\n\tif ($(this).hasClass('show')
+        ) {\r\n\t\t$('#modal-bg').css('display', 'none');\t\t\r\n\t\t$('ul#hamburger-menu').slideUp('fast');\t\r\n\t\t$(this).removeClass('show');\r\n\t}
+        else {\r\n\t\t$(this).addClass('show');\r\n\t\t$('#modal-bg').css('display',
+        'block');\t\r\n\t\t$('ul#hamburger-menu').slideToggle('fast');\r\n\t}\r\n\treturn
+        false;\r\n});\r\n$(\"#modal-bg\").click( function(event){ \t\t\t\t\r\n\tevent.preventDefault();\r\n\t$(this).css('display',
+        'none');\t\t\r\n\t$('ul#hamburger-menu').slideUp('fast');\t\r\n\t$('a#hamburger').removeClass('show');\r\n\treturn
+        false;\r\n});\r\n</script>\r\n<div id=\"logoContainer\" class=\"clearfix\">\r\n\t<div
+        id=\"logo\" alt=\"logo\"><a href=\"/\"></a></div>\r\n  <div class=\"right\">\r\n\t<div
+        id=\"jumpSwitch\">\r\n\t\t<form action=\"\" method=\"post\">\r\n\t\t\t<select
+        id=\"sites\" onchange=\"if(document.getElementById('sites').value){ window.open(document.getElementById('sites').value,
+        '_blank', 'width=1000, height=600');}\">\r\n\t\t\t\t<option value=\"\" selected=\"selected\">Other
+        CBS Corporation Sites</option>\r\n\t\t\t\t<option value=\"http://www.cbs.com\">CBS
+        Television Network</option>\r\n\t\t\t\t<option value=\"http://www.cbs.com\">CBS
+        Entertainment</option>\r\n\t\t\t\t<option value=\"http://www.cbsnews.com\">CBS
+        News</option>\r\n\t\t\t\t<option value=\"http://www.cbssports.com\">CBS Sports</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbstvd.com\">CBS Television Distribution</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbsconsumerproducts.com\">CBS Consumer Products</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbsfilms.com\">CBS Films</option>\r\n\t\t\t\t<option value=\"http://www.cwtv.com\">The
+        CW</option>\r\n\t\t\t\t<option value=\"http://www.sho.com\">Showtime</option>\r\n\t\t\t\t<option
+        value=\"http://www.smithsonianchannel.com\">Smithsonian Channel</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbscollegesports.com\">CBS Sports Network</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbsinteractive.com\">CBS Interactive</option>\r\n\t\t\t\t<option
+        value=\"http://www.cbsradio.com\">CBS Radio</option>\r\n\t\t\t\t<option value=\"http://www.cbssports.com/radio\">CBS
+        Sports Radio</option>\r\n\t\t\t\t<option value=\"http://www.simonandschuster.com\">Simon
+        &amp; Schuster</option>\r\n\t\t\t\t<option value=\"http://www.cbsscene.com\">CBS
+        Scene</option>\r\n\t\t\t\t<option value=\"http://www.cbswatchmagazine.com\">Watch!
+        Magazine</option>\r\n\t\t\t\t<option value=\"http://www.ecomediacbs.com\">EcoMedia</option>
+        \r\n                                <option value=\"http://www.poptv.com\">POP</option>
+        \r\n                                <option value=\"http://tvcityresearch.com\">CBS
+        VISION</option>\r\n\t\t\t</select>\r\n\t\t</form>\t\t\t\r\n\t</div>\r\n  <div
+        class=\"login\"><a href=\"https://cbs.avature.net/cbscorpcareers/Login\">Login
+        to Profile</a></div>\r\n<div id=\"current-employees\" class=\"login\">\r\n
+        <!-- CBS Employees Apply Here<br>-->\r\n  <a href=\"https://sso.lb.cbs.com/internalcareers\">CBS
+        Employees Apply Here</a>\r\n\r\n</div>\r\n  </div>\r\n</div>\r\n  </div>\r\n</div>\r\n<div
+        id=\"nav\">\r\n\t<ul> \r\n\t\t<li id=\"navi-about_cbs\" style=\"background:
+        none;\" class=\"dropdown-heading\"><a href=\"http://www.cbscorporation.com/ourcompany.php?id=11\">About
+        CBS </a> \r\n\t\t\t<ul class=\"drop-down\"> \r\n\t\t\t\t<li style=\"border-top-style:
+        none; background: none;\"><a href=\"http://www.cbscorporation.com/ourcompany-board.php?id=118&amp;member=109\">Board
+        of Directors</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/ourcompany-executives.php?id=67&amp;exec=156\">Executives</a></li>
+        \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/ourcompany.php?id=239\">Corporate
+        Governance</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/ourcompany.php?id=212\">Corporate
+        Responsibility</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/ourcompany.php?id=213\">Business
+        Ethics &amp; Compliance</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/ourcompany.php?id=294\">Suppliers</a></li>\t\r\n\t\t\t</ul>
+        \r\n\t\t</li> \r\n\t\t<li id=\"navi-portfolio\" class=\"dropdown-heading\"><a
+        href=\"http://www.cbscorporation.com/portfolio.php\">Our Portfolio </a> \r\n\t\t\t<ul
+        class=\"drop-down\"> \r\n\t\t\t\t<li style=\"border-top-style: none; background:
+        none;\"><a href=\"http://www.cbscorporation.com/portfolio.php?division=93\">CBS
+        Television Network</a></li> \r\n\t\t\t\t<li style=\"border-top-style: none;\"><a
+        href=\"http://www.cbscorporation.com/portfolio.php?division=94\">CBS Entertainment</a></li>
+        \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=256\">CBS
+        News</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=106\">CBS
+        Sports</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=96\">CBS
+        Television Stations</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=98\">CBS
+        Television Studios</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=99\">CBS
+        Studios International</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=97\">CBS
+        Television Distribution</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=252\">CBS
+        Home Entertainment</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=107\">CBS
+        Consumer Products</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=248\">CBS
+        Films</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=95\">The
+        CW</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=101\">Showtime</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.cbscorporation.com/portfolio.php?division=299\">Smithsonian
+        Channel</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=265\">CBS
+        Sports Network</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=105\">CBS
+        Interactive</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=102\">CBS
+        Radio</a></li>\r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=297\">CBS
+        Sports Radio</a></li>\r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=104\">Simon
+        &amp; Schuster</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=266\">CBS
+        Connections</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=250\">CBS
+        Scene</a></li> \r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=258\">Watch!
+        Magazine</a></li>\r\n\t\t\t\t<li><a href=\"http://www.cbscorporation.com/portfolio.php?division=292\">EcoMedia</a></li>\r\n
+        \                               <li><a href=\"http://www.cbscorporation.com/portfolio.php?division=300\">POP</a></li>\r\n
+        \                               <li><a href=\"http://www.cbscorporation.com/portfolio.php?division=303\">CBS
+        VISION</a></li>\r\n\t\t\t</ul> \r\n\t\t</li> \r\n\t\t<li id=\"navi-investors\"
+        class=\"dropdown-heading\"><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-irhome\">Investors
+        </a> \r\n\t\t\t<ul class=\"drop-down\"> \r\n\t\t\t\t<li style=\"border-top-style:
+        none; background: none;\"><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-stockQuote\">Stock
+        Information</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-homeprofile\">Corporate
+        History/Actions</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-dividends\">Dividends/Splits</a></li>
+        \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-calendar\">Events
+        &amp; Presentations</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-sec\">Financials
+        &amp; SEC Filings</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-govHighlights\">Corporate
+        Governance</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-investorkit\">Shareholder
+        Services</a></li> \r\n\t\t\t\t<li><a href=\"http://investors.cbscorporation.com/phoenix.zhtml?c=99462&amp;p=irol-faq\">Stockholder
+        FAQs</a></li> \r\n\t\t\t</ul> \r\n\t\t</li> \r\n\t\t<li id=\"navi-careers\"
+        class=\"dropdown-heading current\"><a href=\"http://cbscorporation.jobs/\">Careers
+        </a>\r\n\t\t\t<ul class=\"drop-down\"> \r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/a-message-from-our-president/\">CEO
+        Welcome</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/what-we-do/\"
+        class=\"\">Our Portfolio</a></li>\r\n\t\t\t<!--<li><a href=\"http://cbscorporation.jobs/meet-our-people/\"
+        class=\"\">Meet Our People</a></li>-->\r\n\t\t\t<li><a href=\"http://diversity.cbscorporation.com/\"
+        class=\"\">Diversity</a></li>\r\n\t\t\t<li><a href=\"http://diversity.cbscorporation.com/journey.php\"
+        class=\"\">My CBS Journey</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/\"
+        class=\"\">Veterans</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/community-involvement/\"
+        class=\"\">Community Involvement</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation-veterans.jobs/veterans-resources/\"
+        class=\"\">Veterans Resources</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/corporate-citizenship/\"
+        class=\"\">Corporate Citizenship</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/benefits/\"
+        class=\"\">Benefits</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/jobs/\"
+        class=\"\">Search Jobs</a></li>\r\n\t\t\t<li><a href=\"http://cbscorporation.jobs/internships/\"
+        class=\"\">Internships</a></li>\r\n\t\t\t</ul>\r\n\t\t</li> \r\n\t\t<li id=\"navi-news\"
+        class=\"not-dropdown\"><a href=\"http://www.cbscorporation.com/news.php\">News
+        </a></li> \r\n\r\n\t\t<li id=\"navi-diversity\" class=\"dropdown-heading\"><a
+        href=\"http://diversity.cbscorporation.com/\">Diversity </a> \r\n\t\t\t<ul
+        class=\"drop-down\"> \r\n\t\t\t\t<li style=\"border-top-style: none; background:
+        none;\"><a href=\"http://diversity.cbscorporation.com/page.php?id=3\">About
+        Us</a></li> \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/events\">Events</a></li>
+        \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/blog\">Diversity
+        Blog</a></li> \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/page.php?id=16\">Diversity
+        Institute</a></li> \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/careers.php\">Careers</a></li>
+        \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/news\">Diversity
+        News</a></li> \r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/supplier.php\">Supplier
+        Diversity</a></li>\r\n\t\t\t\t<li><a href=\"http://diversity.cbscorporation.com/journey.php\">My
+        CBS Journey</a></li>\r\n\t\t\t</ul>\r\n\t\t</li> \r\n\t\t<li id=\"navi-contact\"
+        class=\"\"><a href=\"http://www.cbscorporation.com/contact.php\">Contact</a></li>
+        \r\n\t</ul>\t\t\t\t\t\t\r\n</div> \n\n\n</div>\n\n\n<div id=\"direct_container\">\n
+        \   <div id=\"direct_innerContainer\">\n    \n        <div id=\"direct_header\">\n
+        \       <h1 id=\"direct_mobileH1\">\n            \n                \n                    CBS
+        Corporation Jobs\n                    \n            \n        </h1><!--direct_mobileH1-->\n
+        \            <div id=\"cp-content\" class=\"career\">\r\n\t<div id=\"landing-title\"
+        class=\"clearfix\">\r\n\t\t<h2>CBS Careers</h2>\r\n\t\t<div class=\"hp-searchContainer
+        clearfix\">\r\n\t\t\t<form id=\"hp-standardSearch\" action=\"/jobs/\">\r\n\t\t\t\t<div
+        class=\"hp-searchHeader clearfix\" role=\"search\">\r\n\t\t\t\t\t<div class=\"hp-searchTab\">\r\n\t\t\t\t\t\t<label
+        for=\"location\">Job Location</label>\r\n\t\t\t\t\t\t<input title=\"Search
+        Location\" type=\"text\" name=\"location\" id=\"location2\" class=\"micrositeLocationField
+        ui-autocomplete-input\" value=\"\" autocomplete=\"off\" role=\"textbox\" aria-autocomplete=\"list\"
+        aria-haspopup=\"true\">\r\n\t\t\t\t\t\t<span class=\"helptext\" id=\"where\">city,
+        state, country</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"hp-searchTab\">\r\n\t\t\t\t\t\t<label
+        for=\"q\">Keywords</label>\r\n\t\t\t\t\t\t<input title=\"Search Phrase\" type=\"text\"
+        name=\"q\" id=\"q2\" class=\"micrositeTitleField ui-autocomplete-input\" value=\"\"
+        autocomplete=\"off\" role=\"textbox\" aria-autocomplete=\"list\" aria-haspopup=\"true\">\r\n\t\t\t\t\t\t<span
+        class=\"helptext\" id=\"what\">job title, keywords</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<input
+        title=\"Submit Search\" type=\"submit\" class=\"submit\" value=\"search\">\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        id=\"hp-searchFooter\">\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</form>\r\n\t\t</div>\r\n\t</div>\r\n</div>
+        \n\n        </div><!--direct_header-->\n        \n        \n            <div
+        class=\"direct_searchContainer\">\n            \n                \n\n\n  \n
+        \ <form id=\"standardSearch\" action=\"/jobs/\">\n  \n    <div class=\"row
+        standard\">\n      <div class=\"searchHeader\" role=\"search\">\n          <div
+        class=\"searchTab\">\n              <label for=\"location\">Where</label>\n
+        \             <input title=\"Search Location\" type=\"text\" name=\"location\"
+        id=\"location\" class=\"micrositeLocationField\" value=\"New York, NY\" />\n
+        \             <span class=\"helptext\" id=\"where\">city, state, country</span>\n
+        \         </div>\n          <div class=\"searchTab\">\n              <label
+        for=\"q\">What</label>\n              <input title=\"Search Phrase\" type=\"text\"
+        name=\"q\" id=\"q\" class=\"micrositeTitleField\"  />\n              <span
+        class=\"helptext\" id=\"what\">job title, keywords</span>\n          </div>\n
+        \       <div class=\"stub\">\n          <div class=\"pull-right\">\n            <input
+        title=\"Submit Search\" type=\"submit\" class=\"btn primary\" value=\"search\"
+        />\n          </div>\n        </div>\n      </div><!-- .searchHeader -->\n
+        \     <div class=\"clear\"></div>\n    </div>\n    <div class=\"row\">\n    \n
+        \     <div class=\"searchFooter\">\n        <a href=\"/\" class=\"homeLink\">Home</a>\n
+        \       <a href=\"/jobs/\" class=\"viewAllLink\">\n            View All Jobs\n
+        \           <span class=\"totaljobs\">\n                <span>(</span>628<span>)</span>\n
+        \           </span>\n        </a>        \n        <div style=\"clear:both\"></div>\n
+        \     </div>\n    </div>\n  </form>\n\n            \n            </div>\n
+        \       \n\n        \n\n<div itemscope itemtype=\"http://schema.org/JobPosting\"
+        role=\"main\">\n    \n    <meta itemprop=\"employmentType\" content=\"Paid
+        Work\" /> \n    <div id=\"direct_jobListingTitle\">\n        <h3>\n          <span
+        class=\"direct_jobListingCompany\" itemprop=\"hiringOrganization\" \n            itemscope
+        itemtype=\"http://schema.org/Organization\">\n            <span itemprop=\"name\">CBS
+        Corporation</span>\n          </span>\n          <span class=\"direct_highlightedText\">\n
+        \           <span itemprop=\"title\">Sports Anchor</span> in \n            <span
+        itemprop=\"jobLocation\" itemscope itemtype=\"http://schema.org/Place\">\n
+        \             <span itemprop=\"address\" itemscope itemtype=\"http://schema.org/PostalAddress\"><span
+        itemprop=\"addressLocality\">New York</span>, <span itemprop=\"addressRegion\">New
+        York</span><meta itemprop=\"addressCountry\" content=\"United States\" /></span>\n
+        \           </span>\n          </span>\n        </h3>\n    </div>\n    <div
+        id=\"direct_horzRule\"></div>\n    <div id=\"direct_listingDiv\">\n        <meta
+        itemprop=\"datePosted\" content=\"2016-02-05T15:52:04\"/>\n        <div id=\"direct_jobDescriptionText\"
+        itemprop=\"description\">\n            \n                <h4>Sports Anchor</h4>\n\n<p><strong>REF#:</strong>
+        22812</p>\n\n<p><strong>CBS BUSINESS UNIT:</strong> CBS Radio</p>\n\n<p><strong>JOB
+        TYPE:</strong> Part-Time (without benefits)</p>\n\n<p><strong>JOB SCHEDULE:</strong>
+        Part-Time</p>\n\n<p><strong>JOB LOCATION:</strong> New York, NY</p>\n\n<p><strong>ABOUT
+        US:</strong></p>\n\n<p>CBS RADIO is one of the largest major-market broadcast
+        media operators in the United States and the undisputed leader in news and
+        sports radio. Producing original audio and video content, live events and
+        exclusive programming broadcast via on-air, online and mobile platforms, CBS
+        RADIO reaches more than 72 million consumers nationwide each week. As a part
+        of CBS Corporation, the division owns and operates 117 radio stations in 26
+        markets - including the top 10 as ranked by Nielsen Audio - as well as an
+        extensive array of digital assets. CBS RADIO distributes its programming via
+        AM, FM and HD Radio stations, Radio.com and CBS Local Digital Media apps,
+        making engaging with audiences easier than ever before. For more information,
+        please visit www.cbsradio.com.</p>\n\n<p><strong>DESCRIPTION:</strong></p>\n\n<p>CBS
+        Sports Radio Network offers around-the-clock national sports coverage and
+        programming, harnessing the power and resources of CBS RADIO and the award-winning
+        CBS Sports. Original programs across multiple weekday and weekend time periods
+        will feature expert sports commentary and interviews with major sports figures
+        along with listener calls and fan interaction.</p>\n\n<p>The content partnership
+        between CBS RADIO and CBS Sports, with affiliate sales and syndication provided
+        by Cumulus Media Networks, offers around the clock national sports coverage
+        from a wide range of sports personalities and experienced broadcasters. Jim
+        Rome, Boomer Esiason, Tiki Barber, John Feinstein, Doug Gottlieb, Dana Jacobson
+        and Scott Ferrall are among the many voices heard on CBS Sports Radio.</p>\n\n<p>Launched
+        on September 4, 2012, CBS Sports Radio has more than tripled its reach since
+        the new venture was announced with programming available in all of the Top
+        10 and 35 of the Top 50 markets across the United States, across 300 affiliates.</p>\n\n<p>We
+        are looking for part time Sports Anchors to add to our great staff of talent.</p>\n\n<p><strong>QUALIFICATIONS:</strong></p>\n\n<p>Required:</p>\n\n<p>Candidates
+        must have a minimum of three years experience at a major market sports talk
+        radio station/network.</p>\n\n<ul>\n<li><p>Candidates should either send CD
+        demo (sportscasts only) via e-mail your demo (5MB max) to [1] demos@cbsradio.com.</p></li>\n<li><p>Must
+        be willing to work evenings/weekends</p></li>\n</ul>\n\n<p>References</p>\n\n<p>Visible
+        links</p>\n\n<ol>\n<li>mailto:demos@cbsradio.com</li>\n</ol>\n\n<p><strong>EEO
+        STATEMENT:</strong></p>\n\n<p>Equal Opportunity Employer Minorities/Women/Veterans/Disabled</p>\n\n
+        \           \n            <meta name=\"de-buid\" content=\"\"/>\n            <meta
+        name=\"de-buid-associated-jobs\" content=\"\"/>\n            <meta name=\"de-buid-title\"
+        content=\"\"/>\n            <meta name=\"de-buid-date-crawled\" content=\"\"/>\n
+        \           <meta name=\"de-buid-date-updated\" content=\"\"/>\n            <meta
+        name=\"de-special-commits\" content=\"\"/>\n            <meta name=\"de-buid-title-slug\"
+        content=\"\"/>\n        </div>\n        <div class='direct-action-btn' id=\"direct_applyButtonBottom\">\n
+        \           \n            <a href=\"http://my.jobs/2119543DE34D4928A30422726AC73AB310\"
+        onclick=\"goalClick('/G/apply-click', this.href); return false;\">Apply Now</a>\n
+        \           \n        </div>\n        \n    </div>\n</div>\n\n        \n\n\n<div
+        id=\"direct_applyDiv\" class=\"direct_rightColBox\">\n    <div id=\"direct_applyButton\"
+        class=\"direct-action-btn\" role=\"menu\">\n        \n        <a href=\"http://my.jobs/2119543DE34D4928A30422726AC73AB310\"
+        onclick=\"goalClick('/G/apply-click', this.href); return false;\">Apply Now</a>\n
+        \       \n    </div>\n    <div id=\"direct_shareDiv\" role=\"menu\">\n        <h3>Share</h3>\n
+        \       <!-- AddThis Button BEGIN -->\n<div id=\"addThis\" class=\"addthis_toolbox
+        addthis_32x32_style addthis_default_style\" att=\"pad\">\n    <a class=\"addthis_button_facebook\"></a>\n
+        \   <a class=\"addthis_button_twitter\"></a>\n    <a class=\"addthis_button_linkedin\"></a>
+        \   \n    <a class=\"addthis_button_email\"></a>    \n    <a class=\"addthis_button_compact\"></a>
+        \   \n</div>\n<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=jobsdotjobs\"></script>\n<!--
+        AddThis Button END -->\n<!--replace with my.jobs sharing when ready. JPS 10-4-12-->\n
+        \   </div>\n </div>\n <div id=\"direct_disambiguationDiv\">\n    <div id=\"direct_searchCriteria\"
+        role=\"menu\">\n        <h3 id=\"direct_searchCriteriaHeader\" style=\"float:left;\">Current
+        Search Criteria</h3>\n        <div style=\"clear:left;\"></div>\n        <ul
+        id=\"direct_searchOptions\">\n          \n          <li>\n            <a href=\"/new-york/new-york/usa/jobs/?utm_campaign=Indeed&amp;vs=1554&amp;utm_medium=Job+Aggregator&amp;utm_source=Indeed-DE\"
+        title=\"Remove Sports Anchor\">\n              Sports Anchor\n            </a>\n
+        \         </li>\n          \n          <li>\n            <a href=\"/sports-anchor/jobs-in/new-york/usa/jobs/?utm_campaign=Indeed&amp;vs=1554&amp;utm_medium=Job+Aggregator&amp;utm_source=Indeed-DE\"
+        title=\"Remove New York\">\n              New York\n            </a>\n          </li>\n
+        \         \n          \n          \n          <li>\n            <a href=\"/sports-anchor/jobs-in/usa/jobs/?utm_campaign=Indeed&amp;vs=1554&amp;utm_medium=Job+Aggregator&amp;utm_source=Indeed-DE\"
+        title=\"Remove New York\">\n              New York\n            </a>\n          </li>\n
+        \         \n          \n          \n\n          <li><a href=\"/jobs/\" title=\"Clear
+        All\">Clear All</a></li>\n        </ul>\n    </div>\n</div>\n\n\n        \n
+        \       \n        <div id=\"direct_clearDiv\"></div>\n        \n        \n\n
+        \       <div id=\"direct_footer\" role=\"contentinfo\">\n            \n              <div
+        class=\"cbs-arch\">\r\n\t<img src=\"http://seo.nlx.org/cbscorporation.jobs/img/logo-gold.png\">\r\n</div>\r\n\r\n
+        \n\n            \n        </div><!--direct_footer-->\n    \n\n\n\n    </div><!--direct_innercontainer-->\n</div><!--direct_container-->\n\n\n\n<div
+        id=\"direct_wideFooter\">\n    \n \n    <div id=\"footerCont\">\r\n\t<div
+        id=\"footerBar\">\r\n\t\t<ul id=\"footerLinks\">\r\n\t\t\t<li style=\"border-left-style:
+        none;\"><a href=\"http://www.cbscorporation.com/index.php\">Home</a></li>\r\n\t\t\t<li><a
+        href=\"http://cbscorporation.jobs\">Careers</a></li>\r\n\t\t\t<li><a href=\"http://www.cbscorporation.com/page.php?id=229\">Terms
+        of Use</a></li>\r\n\t\t\t<li><a href=\"http://www.cbscorporation.com/page.php?id=228\">Privacy
+        Policy</a></li>\r\n\t\t\t<li><a href=\"http://www.cbscorporation.com/contact.php\">Contact</a></li>\r\n\t\t\t<li><a
+        href=\"http://cbscorporation.jobs/eeo/\">Equal Employment Opportunity</a></li>\r\n\t\t</ul>\r\n\t\t<p>&copy;
+        <script type=\"text/javascript\">document.write(new Date().getFullYear())</script>
+        CBS Corporation and CBS Broadcasting Inc. All Rights Reserved.</p>\r\n\t</div>\r\n<div
+        id=\"compliance-statement\">\r\n    <p><strong class=\"bold\">Reasonable Accommodations
+        </strong></p>\r\n\r\n<p>CBS is an equal opportunity employer that is committed
+        to working with and providing reasonable accommodations to individuals with
+        disabilities. If you have a disability and you believe you need a reasonable
+        accommodation in order to search for a job opening or to submit an online
+        application, please e-mail <a href=\"mailto:recruitmentoperations@cbs.com\">recruitmentoperations@cbs.com</a>
+        or call toll-free (855) 474-2270. Only messages left for this purpose will
+        be returned. </p>\r\n\r\n<p>An Equal Opportunity Employer. All qualified applicants
+        will receive consideration for employment without regard to race, color, religion,
+        sex, national origin, or protected veteran status and will not be discriminated
+        against on the basis of disability. </p></div>\r\n</div>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n$(document).ready(function(){\r\n\tif ($('.direct_searchContainer').length
+        > 0){\r\n\t\t$(\"#direct_innerContainer\").css({\"width\" : \"900px\", \"padding\"
+        : \"1px 35px\"});\r\n\t\t$(\"#direct_header, #direct_footer\").css({\"display\"
+        : \"block\"});\r\n\t}\r\n\tif ($(window).width() < '800' && $('.direct_searchContainer').length
+        > '0') { \r\n\t\t$(\"#direct_innerContainer\").css({\"width\" : \"100%\"});\r\n\t\t$(\"#direct_footer\").css({\"display\"
+        : \"none\"});\r\n\t}\r\n});\r\n\r\n$(document).ready(function(){\r\n  \r\n/*
+        \ if ($('#direct_shareDiv').length > 0){\r\n        youtube_video_container
+        = \"<div id=\\\"youtube-video\\\"> <iframe src=\\\"http://www.youtube.com/embed/AmVi8RtjR7U?rel=0\\\"
+        frameborder=\\\"0\\\" allowfullscreen></iframe></div>\";\r\n        $('#direct_shareDiv').after(youtube_video_container);\r\n
+        \   }*/\r\n\r\n\r\n    if ($('div#direct_applyButton').length > 0){\r\n        talent_linkmain
+        = \"<div id=\\\"btn-talent-application\\\"><a onclick=\\\"goalClick('/G/-click',
+        this.href); return false;\\\" href=\\\"https://sso.lb.cbs.com/internalcareers\\\"><strong>CBS
+        Employees Apply Here</strong><span>Please search by REF# on Internal Site.</span></a></div>\";\r\n
+        \       $('div#direct_applyButton').after(talent_linkmain);\r\n    }\r\n\r\n\r\n});\r\n\r\n
+        \           $(\"p\").filter(function() {\r\n                        return
+        $(this).text() === \"About Us:\"; \r\n            }).addClass(\"highlighted\");\r\n
+        \           $(\"p\").filter(function() {\r\n                        return
+        $(this).text() === \"Description:\"; \r\n            }).addClass(\"highlighted\");\r\n
+        \           $(\"p\").filter(function() {\r\n                        return
+        $(this).text() === \"Qualifications:\"; \r\n            }).addClass(\"highlighted\");\r\n
+        \           $(\"p\").filter(function() {\r\n                        return
+        $(this).text() === \"EEO Statement:\"; \r\n            }).addClass(\"highlighted\");\r\n</script>\r\n\r\n<style>\r\n\r\n.highlighted
+        {\r\n            font-weight: bold;\r\n            text-transform: uppercase;\r\n}\r\n\r\n#direct_listingDiv
+        strong {\r\n            font-weight:bold;\r\n            text-transform: uppercase;\r\n}\r\n\r\n#direct_listingDiv
+        em {\r\n            font-style: italic;\r\n            font-weight: bold;\r\n}\r\n\r\n#direct_listingDiv
+        hr {\r\n           display: none;\r\n}\r\n           \r\n</style>  \r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n$(document).ready(function () {\r\n\r\n$(\"#q2\").val($(\"#q\").val());\r\n\r\n});\r\n\r\n</script>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n$(document).ready(function () {\r\n\r\n$(\"#location2\").val($(\"#location\").val());\r\n\r\n});\r\n\r\n</script>\r\n\r\n
+        \n\n<script>\nif (error_page){\n    ga('send', 'event', 'Error', error_page,
+        'page: ' + document.location.pathname + document.location.search + ' ref:
+        ' + document.referrer)\n}else{\n    ga('send', 'pageview')\n             \n
+        \   ga('g1525.send', 'pageview')\n    \n}\n</script>\n\n</div>   \n\n\n<script
+        src=\"//d2e48ltfsb5exy.cloudfront.net/content_ms/files/def.ui.microsite.analytics.151-15.js\"
+        type=\"text/javascript\"></script>\n<img style=\"display: none;\" border=\"0\"
+        height=\"1\" width=\"1\" alt=\"My.jobs\"\n\n\n\n    src=\"//my.jobs/pixel.gif?d=cbscorporation.jobs&pc=listing&jvs=88&jvt=Sports+Anchor&jvcd=http%3A%2F%2Fcbscorporation.jobs%2F&jvl=New+York%2C+NY&jvb=3643&st=company&jvg=2119543DE34D4928A30422726AC73AB3&jvc=CBS+Corporation\"\n/>\n\n\n<!--
+        Quantcast Tag, part 2 -->\n<script type=\"text/javascript\">\n    _qevents.push(
+        { qacct:\"p-f4sayuhJjqv_Q\", labels:\"Direct SEO, Dot Jobs\"} );\n</script>\n<noscript>\n<div
+        style=\"display: none;\">\n    <img src=\"http://pixel.quantserve.com/pixel/p-f4sayuhJjqv_Q.gif?labels=Direct%20SEO%2C%20Dot%20Jobs\"
+        height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n</div>\n</noscript>\n\n\n    <script>\n
+        \       $(document).ready(function(){RetrieveExternalCampaignCookie();});\n
+        \   </script>\n    <script id=\"detrack\" defer src=\"https://d2e48ltfsb5exy.cloudfront.net/t/t.js?i=0,1,6\"></script>
+        \n\n</body>\n</html>\n\n\n"
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 20:59:09 GMT
+recorded_with: VCR 3.0.3

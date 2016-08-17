@@ -116,7 +116,7 @@ RSpec.describe UrlContentService do
       end
     end
 
-    context 'with url from google (redirect)', vcr: true do
+    context 'with url from indeed (redirect)', vcr: true do
       let(:url) { 'http://www.indeed.com/rc/clk?jk=9b8104db56fc49ce&fccid=b8ada337c2ed4289' }
 
       it 'should create UrlContent' do
