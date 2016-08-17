@@ -1,14 +1,16 @@
 class UrlContentService
+  VALID_URL_REGEX = /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix
+
   attr_reader :url
 
-  VALID_URL_REGEX = /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix
+  class InvalidUrlException < Exception; end
 
   def initialize(url)
     @url = url
   end
 
   def run
-    return unless valid_url?(url)
+    return invalid_url unless valid_url?(url)
     create_url_with_content
   end
 
@@ -49,5 +51,9 @@ class UrlContentService
     page.css(tag_name)
         .map(&:text)
         .map(&:squish)
+  end
+
+  def invalid_url
+    raise InvalidUrlException, 'This URL is not valid.'
   end
 end

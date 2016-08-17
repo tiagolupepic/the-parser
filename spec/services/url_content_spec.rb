@@ -7,14 +7,8 @@ RSpec.describe UrlContentService do
     context 'with blank url' do
       let(:url) { nil }
 
-      it 'should not create UrlContent' do
-        subject.run
-
-        expect(UrlContent.count).to eq 0
-      end
-
-      it 'should not raise error' do
-        expect { subject.run }.to_not raise_error
+      it 'should raise error' do
+        expect { subject.run }.to raise_error UrlContentService::InvalidUrlException, 'This URL is not valid.'
       end
     end
 
@@ -60,28 +54,15 @@ RSpec.describe UrlContentService do
     context 'with invalid url' do
       let(:url) { 'guides.rubyonrails.org/routing.html' }
 
-
-      it 'should not create UrlContent' do
-        subject.run
-
-        expect(UrlContent.count).to eq 0
-      end
-
-      it 'should not raise error' do
-        expect { subject.run }.to_not raise_error
+      it 'should raise error' do
+        expect { subject.run }.to raise_error UrlContentService::InvalidUrlException, 'This URL is not valid.'
       end
 
       context 'and with http but invalid domain' do
         let(:url) { 'http://fake' }
 
-        it 'should not create UrlContent' do
-          subject.run
-
-          expect(UrlContent.count).to eq 0
-        end
-
-        it 'should not raise error' do
-          expect { subject.run }.to_not raise_error
+        it 'should raise error' do
+          expect { subject.run }.to raise_error UrlContentService::InvalidUrlException, 'This URL is not valid.'
         end
       end
     end
