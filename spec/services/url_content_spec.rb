@@ -121,5 +121,13 @@ RSpec.describe UrlContentService do
         expect(url.links.size).to    eq 95
       end
     end
+
+    context 'with url without h1' do
+      let(:url) { 'https://www.google.com' }
+
+      it 'should raise error' do
+        expect { subject.run }.to raise_error ActiveRecord::RecordInvalid, 'Validation failed: Headers one can\'t be blank'
+      end
+    end
   end
 end
