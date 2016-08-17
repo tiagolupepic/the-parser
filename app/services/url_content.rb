@@ -28,7 +28,7 @@ class UrlContentService
 
   def params
     {
-      name:          url,
+      name:          document.base_uri.to_s,
       headers_one:   page.css('h1').map(&:text),
       headers_two:   page.css('h2').map(&:text),
       headers_three: page.css('h3').map(&:text),

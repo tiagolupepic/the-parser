@@ -92,7 +92,7 @@ RSpec.describe UrlContentService do
 
         url = UrlContent.first
 
-        expect(url.name).to               eq 'http://bit.ly/1ww7mOQ'
+        expect(url.name).to               eq 'http://guides.rubyonrails.org/routing.html'
         expect(url.headers_one).to        eq ['Guides.rubyonrails.org']
         expect(url.headers_two).to        eq ['Rails Routing from the Outside In']
         expect(url.headers_three.size).to eq 7
