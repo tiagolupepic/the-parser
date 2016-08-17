@@ -36,7 +36,15 @@ RSpec.describe UrlContentService do
         expect(url.headers_one).to        eq ['Guides.rubyonrails.org']
         expect(url.headers_two).to        eq ['Rails Routing from the Outside In']
         expect(url.headers_three.size).to eq 7
-        expect(url.links.size).to         eq 112
+        expect(url.links.size).to         eq 14
+      end
+
+      it 'should remove invalid links' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.links.all? { |link| link =~ /^http/ } ).to be_truthy
       end
 
       it 'should assign links urls' do
@@ -96,7 +104,15 @@ RSpec.describe UrlContentService do
         expect(url.headers_one).to        eq ['Guides.rubyonrails.org']
         expect(url.headers_two).to        eq ['Rails Routing from the Outside In']
         expect(url.headers_three.size).to eq 7
-        expect(url.links.size).to         eq 112
+        expect(url.links.size).to         eq 14
+      end
+
+      it 'should remove invalid links' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.links.all? { |link| link =~ /^http/ } ).to be_truthy
       end
     end
 
@@ -118,7 +134,15 @@ RSpec.describe UrlContentService do
         expect(url.headers_one).to   eq ['CBS Corporation Jobs']
         expect(url.headers_two).to   eq ['CBS Careers']
         expect(url.headers_three).to eq ['CBS Corporation Sports Anchor in New York, New York', 'Share', 'Current Search Criteria']
-        expect(url.links.size).to    eq 95
+        expect(url.links.size).to    eq 87
+      end
+
+      it 'should remove invalid links' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.links.all? { |link| link =~ /^http/ } ).to be_truthy
       end
     end
 
@@ -148,7 +172,15 @@ RSpec.describe UrlContentService do
         expect(url.headers_one).to   eq ['regular expressions 101 regex 101']
         expect(url.headers_two).to   be_empty
         expect(url.headers_three).to be_empty
-        expect(url.links.size).to    eq 16
+        expect(url.links.size).to    eq 6
+      end
+
+      it 'should remove invalid links' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.links.all? { |link| link =~ /^http/ } ).to be_truthy
       end
 
       it 'should not raise error' do

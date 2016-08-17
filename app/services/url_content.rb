@@ -38,7 +38,7 @@ class UrlContentService
 
   def page_links
     page.css('a').collect   { |link| link.attributes['href'].try(:value) }
-                 .delete_if { |value| value.blank? }
+                 .delete_if { |value| not value =~ VALID_URL_REGEX }
   end
 
   def cleanup_empty(content)
