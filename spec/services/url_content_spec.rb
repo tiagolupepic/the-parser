@@ -129,5 +129,31 @@ RSpec.describe UrlContentService do
         expect { subject.run }.to raise_error ActiveRecord::RecordInvalid, 'Validation failed: Headers one can\'t be blank'
       end
     end
+
+    context 'with url and h1 only' do
+      let(:url) { 'https://regex101.com' }
+
+      it 'should create UrlContent' do
+        subject.run
+
+        expect(UrlContent.count).to eq 1
+      end
+
+      it 'should assign params' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.name).to          eq 'https://regex101.com'
+        expect(url.headers_one).to   eq ['regular expressions 101 regex 101']
+        expect(url.headers_two).to   be_empty
+        expect(url.headers_three).to be_empty
+        expect(url.links.size).to    eq 16
+      end
+
+      it 'should not raise error' do
+        expect { subject.run }.to_not raise_error
+      end
+    end
   end
 end
