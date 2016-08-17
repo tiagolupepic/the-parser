@@ -36,4 +36,12 @@ RSpec.configure do |config|
   def json_response
     @json_response ||= JSON.parse(response.body)
   end
+
+  def headers(params = {})
+    header = {
+      "CONTENT_TYPE" => "application/json",
+    }
+    header.merge!({ 'rack.input' => StringIO.new(params.to_json) }) if params.present?
+    header
+  end
 end
