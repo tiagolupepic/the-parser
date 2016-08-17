@@ -1,12 +1,14 @@
 class UrlContentService
   attr_reader :url
 
+  VALID_URL_REGEX = /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix
+
   def initialize(url)
     @url = url
   end
 
   def run
-    return if url.blank?
+    return unless valid_url?
     create_url_with_content
   end
 
@@ -36,5 +38,9 @@ class UrlContentService
 
   def page_links
     page.css('a').collect { |link| link.attributes['href'].value }
+  end
+
+  def valid_url?
+    url =~ VALID_URL_REGEX
   end
 end

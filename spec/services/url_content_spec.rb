@@ -50,6 +50,32 @@ RSpec.describe UrlContentService do
     end
 
     context 'with invalid url' do
+      let(:url) { 'guides.rubyonrails.org/routing.html' }
+
+
+      it 'should not create UrlContent' do
+        subject.run
+
+        expect(UrlContent.count).to eq 0
+      end
+
+      it 'should not raise error' do
+        expect { subject.run }.to_not raise_error
+      end
+
+      context 'and with http but invalid domain' do
+        let(:url) { 'http://fake' }
+
+        it 'should not create UrlContent' do
+          subject.run
+
+          expect(UrlContent.count).to eq 0
+        end
+
+        it 'should not raise error' do
+          expect { subject.run }.to_not raise_error
+        end
+      end
     end
 
     context 'with url shortener' do
