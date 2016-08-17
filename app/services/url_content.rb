@@ -8,7 +8,7 @@ class UrlContentService
   end
 
   def run
-    return unless valid_url?
+    return unless valid_url?(url)
     create_url_with_content
   end
 
@@ -29,23 +29,25 @@ class UrlContentService
   def params
     {
       name:          document.base_uri.to_s,
-      headers_one:   cleanup_empty(page.css('h1').map(&:text)),
-      headers_two:   cleanup_empty(page.css('h2').map(&:text)),
-      headers_three: cleanup_empty(page.css('h3').map(&:text)),
+      headers_one:   text_content_from('h1'),
+      headers_two:   text_content_from('h2'),
+      headers_three: text_content_from('h3'),
       links:         page_links
     }
   end
 
   def page_links
     page.css('a').collect   { |link| link.attributes['href'].try(:value) }
-                 .delete_if { |value| not value =~ VALID_URL_REGEX }
+                 .delete_if { |value| !valid_url?(value) }
   end
 
-  def cleanup_empty(content)
-    content.map(&:squish)
-  end
-
-  def valid_url?
+  def valid_url?(url)
     url =~ VALID_URL_REGEX
+  end
+
+  def text_content_from(tag_name)
+    page.css(tag_name)
+        .map(&:text)
+        .map(&:squish)
   end
 end
