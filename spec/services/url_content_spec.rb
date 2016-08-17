@@ -79,6 +79,25 @@ RSpec.describe UrlContentService do
     end
 
     context 'with url shortener' do
+      let(:url) { 'http://bit.ly/1ww7mOQ' }
+
+      it 'should create UrlContent' do
+        subject.run
+
+        expect(UrlContent.count).to eq 1
+      end
+
+      it 'should assign params' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.name).to               eq 'http://bit.ly/1ww7mOQ'
+        expect(url.headers_one).to        eq ['Guides.rubyonrails.org']
+        expect(url.headers_two).to        eq ['Rails Routing from the Outside In']
+        expect(url.headers_three.size).to eq 7
+        expect(url.links.size).to         eq 112
+      end
     end
   end
 end
