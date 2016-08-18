@@ -11,7 +11,7 @@ gem 'nokogiri'
 group :development do
   gem 'rack-test'
   gem 'rspec'
-  gem 'shotgun', github: 'jekuta/shotgun', branch: 'set_pessimistic_versioning_on_rack'
+  gem 'notgun'
   gem 'factory_girl'
   gem 'database_cleaner'
   gem 'faker'
