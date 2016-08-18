@@ -130,8 +130,34 @@ RSpec.describe UrlContentService do
     context 'with url without h1', vcr: true do
       let(:url) { 'https://www.google.com' }
 
-      it 'should raise error' do
-        expect { subject.run }.to raise_error ActiveRecord::RecordInvalid, 'Validation failed: Headers one can\'t be blank'
+      it 'should create UrlContent' do
+        subject.run
+
+        expect(UrlContent.count).to eq 1
+      end
+
+      it 'should assign params' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.name).to          eq 'https://www.google.com.br/?gfe_rd=cr&ei=oj21V6arHYLd8gea6LSgCA'
+        expect(url.headers_one).to   be_empty
+        expect(url.headers_two).to   be_empty
+        expect(url.headers_three).to be_empty
+        expect(url.links.size).to    eq 12
+      end
+
+      it 'should remove invalid links' do
+        subject.run
+
+        url = UrlContent.first
+
+        expect(url.links.all? { |link| link =~ /^http/ } ).to be_truthy
+      end
+
+      it 'should not raise error' do
+        expect { subject.run }.to_not raise_error
       end
     end
 
