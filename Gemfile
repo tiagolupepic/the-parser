@@ -7,6 +7,7 @@ gem 'rake'
 gem 'activerecord'
 gem 'pg'
 gem 'nokogiri'
+gem 'will_paginate', '~> 3.1.0'
 
 group :development do
   gem 'rack-test'
