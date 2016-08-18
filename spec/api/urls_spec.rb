@@ -26,6 +26,20 @@ RSpec.describe Urls do
 
       expect(url.keys).to eq ['id', 'url', 'h1', 'h2', 'h3', 'links']
     end
+
+    context 'paginate' do
+      let(:params) { { page: 2 } }
+
+      it 'should respond with status 200' do
+        get '/urls', {}, request_headers
+        expect(response.status).to eq 200
+      end
+
+      it 'should return empty urls' do
+        get '/urls', {}, request_headers
+        expect(json_response.size).to eq 0
+      end
+    end
   end
 
   describe 'POST /' do

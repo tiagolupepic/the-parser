@@ -3,7 +3,7 @@ class Urls < Roda
 
   route do |r|
     r.get do
-      UrlContent.all
+      UrlContent.paginate(page: params[:page])
     end
 
     r.post do
