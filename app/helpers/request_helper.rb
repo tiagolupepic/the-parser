@@ -3,8 +3,8 @@ module RequestHelper
     base.plugin :all_verbs
     base.plugin :indifferent_params
     base.plugin :json_parser
-    base.plugin :json, classes: [Array, Hash],
-      include_request: true, serializer: proc { |object, request| object.to_json }
+    base.plugin :json, classes: [Array, Hash, ActiveRecord::Base],
+      include_request: true, serializer: proc { |object| DecoratorDelegator.new(object).run.to_json }
   end
 
   def halt_request(status, body)
