@@ -29,5 +29,17 @@ RSpec.describe DecoratorDelegator do
         expect(result.class).to eq UrlContentDecorator
       end
     end
+
+    context 'with array of UrlContent model' do
+      let(:model) { UrlContent.all }
+
+      before do
+        create :url_content
+      end
+
+      it 'should decorate with decorator' do
+        expect(result.first.class).to eq UrlContentDecorator
+      end
+    end
   end
 end
