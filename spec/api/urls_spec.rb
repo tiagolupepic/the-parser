@@ -78,7 +78,7 @@ RSpec.describe Urls do
       it 'should run UrlContentService' do
         post '/urls', {}, request_headers
         expect(json_response['errors'].size).to  eq 1
-        expect(json_response['errors'].first).to eq 'This URL is not valid.'
+        expect(json_response['errors'].first).to eq 'This is not valid URL.'
       end
 
       it 'should return status 422' do

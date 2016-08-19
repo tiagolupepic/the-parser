@@ -54,6 +54,6 @@ class UrlContentService
   end
 
   def invalid_url
-    raise InvalidUrlException, 'This URL is not valid.'
+    raise InvalidUrlException, 'This is not valid URL.'
   end
 end
