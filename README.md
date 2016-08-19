@@ -1,6 +1,6 @@
 # The Parser
 
-> Simple parser to index url content using
+> Simple parser to index url content.
 
 ## Features
 
@@ -18,7 +18,11 @@
 
 Download The Parser source code:
 
-	git clone the-parser
+	git clone https://github.com/tiagolupepic/the-parser.git
+
+Enter the directory
+
+   cd the-parser
 
 Then execute:
 
@@ -59,7 +63,7 @@ curl http://127.0.0.1:9393/urls
 
 Response (with empty objects):
 
-```
+```json
 [{
    "id":"",
    "url":"",
@@ -68,7 +72,8 @@ Response (with empty objects):
    "h3":[],
    "links":[]
 }
-...]
+...
+]
 ```
 
 
@@ -135,7 +140,7 @@ curl -H "Content-type: application/json" -X POST -d '{"url":"google.com"}' http:
 
 Response:
 
-```
+```json
 {"errors":["This is not valid URL."]}
 ```
 
