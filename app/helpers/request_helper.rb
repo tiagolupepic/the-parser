@@ -12,4 +12,11 @@ module RequestHelper
     response.write(body.to_json)
     request.halt
   end
+
+  def paginate(object)
+    response.headers["X-Total-Pages"] = object.total_pages.to_s
+    response.headers["X-Total-Count"] = object.total_entries.to_s
+    response.headers["X-Per-Page"]    = "10"
+    object
+  end
 end

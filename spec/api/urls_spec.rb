@@ -27,6 +27,14 @@ RSpec.describe Urls do
       expect(url.keys).to eq ['id', 'url', 'h1', 'h2', 'h3', 'links']
     end
 
+    it 'should respond with paging headers' do
+      get '/urls', {}, request_headers
+
+      expect(response.headers['X-Total-Pages']).to eq '1'
+      expect(response.headers['X-Total-Count']).to eq '1'
+      expect(response.headers['X-Per-Page']).to    eq '10'
+    end
+
     context 'paginate' do
       let(:params) { { page: 2 } }
 
