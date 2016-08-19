@@ -5,7 +5,6 @@ require 'shoulda/matchers'
 require 'rack/test'
 require 'factory_girl'
 require 'database_cleaner'
-require 'faker'
 require 'vcr'
 
 
