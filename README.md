@@ -22,7 +22,7 @@ Download The Parser source code:
 
 Enter the directory
 
-   cd the-parser
+	cd the-parser
 
 Then execute:
 
@@ -71,9 +71,7 @@ Response (with empty objects):
    "h2":[],
    "h3":[],
    "links":[]
-}
-...
-]
+}]
 ```
 
 
@@ -165,6 +163,7 @@ Run tests
 2. CORS (Javascript)
 3. Page links on Headers
 4. Sorting ascending and descending sorting with multiple fields
+5. Use ENV variable to define `per_page`
 
 ## Contributing
 
