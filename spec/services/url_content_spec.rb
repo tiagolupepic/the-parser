@@ -194,5 +194,19 @@ RSpec.describe UrlContentService do
         expect { subject.run }.to_not raise_error
       end
     end
+
+    context 'with url have redirect', vcr: true do
+      let(:url) { 'http://regex101.com' }
+
+      it 'should create UrlContent' do
+        subject.run
+
+        expect(UrlContent.count).to eq 1
+      end
+
+      it 'should not raise error' do
+        expect { subject.run }.to_not raise_error
+      end
+    end
   end
 end

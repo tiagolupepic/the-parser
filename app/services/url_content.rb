@@ -21,7 +21,7 @@ class UrlContentService
   end
 
   def document
-    @document ||= open(url)
+    @document ||= open(url, :allow_redirections => :all)
   end
 
   def page
