@@ -40,7 +40,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (3.6.0)
-    rack (1.6.4)
+    rack (1.6.11)
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (11.2.2)
@@ -86,6 +86,7 @@ DEPENDENCIES
   pg (= 0.18.4)
   pry (= 0.10.4)
   puma (= 3.6.0)
+  rack (= 1.6.11)
   rack-test
   rake
   roda (= 2.16.0)
