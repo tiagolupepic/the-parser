@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.3.7'
 
 gem 'roda', '2.16.0'
 gem 'puma', '3.6.0'
